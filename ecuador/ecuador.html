@@ -1,0 +1,1672 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Metadata Schema.org SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.iniseg.es#organization",
+          "description": "Masters y Cursos de INISEG, docentes expertos, material actualizado. Programa de Becas y Financiación. Programa online 100% tutorizado.",
+          "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
+          "sameAs": [
+            "https://www.youtube.com/c/inisegoficial",
+            "https://www.facebook.com/InisegOficial/",
+            "https://twitter.com/InisegOficial",
+            "https://es.linkedin.com/company/inisegoficial",
+            "https://www.instagram.com/inisegoficial/"
+          ],
+          "url": "https://www.iniseg.es",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Getafe, Madrid, España",
+            "postalCode": "28903",
+            "streetAddress": "Calle Emilia Pardo Bazán 1"
+          },
+          "telephone": "+34912141926",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "assets/images/menu/logo-nombre-blanco.png"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.iniseg.es#website",
+          "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
+          "url": "https://www.iniseg.es",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.iniseg.es/search?&q={query}",
+            "query-input": "required name=search_term_string",
+            "url": "https://www.iniseg.es/buscador/{search_term_string}"
+          }
+        }
+      ]
+    }
+  </script>
+
+  <!-- HTML Meta Tags -->
+  <title>Iniseg Ecuador</title>
+  <meta name="description"
+    content="INISEG, el Instituto Internacional de estudios en Seguridad Global, único campus universitario online dedicado exclusivamente al área de Seguridad y Defensa">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://www.iniseg.es">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Títulos oficiales seguridad, ciberguridad, Madrid | INISEG">
+  <meta property="og:description"
+    content="INISEG, el Instituto Internacional de estudios en Seguridad Global, único campus universitario online dedicado exclusivamente al área de Seguridad y Defensa">
+  <meta property="og:image" content="https://www.iniseg.es/nuevoindex2023/assets/images/menu/logo.jpg">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="iniseg.es">
+  <meta property="twitter:url" content="https://www.iniseg.es">
+  <meta name="twitter:title" content="Títulos oficiales seguridad, ciberguridad, Madrid | INISEG">
+  <meta name="twitter:description"
+    content="INISEG, el Instituto Internacional de estudios en Seguridad Global, único campus universitario online dedicado exclusivamente al área de Seguridad y Defensa">
+  <meta name="twitter:image" content="https://www.iniseg.es/nuevoindex2023/assets/images/menu/logo.jpg">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/stylesMenu.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/min.css">
+  <link rel="stylesheet" href="../styles/med.css">
+  <link rel="stylesheet" href="../styles/large.css">
+  <link rel="stylesheet" href="../styles/paises.css">
+	<link rel="stylesheet" href="styles_ecu.css">
+
+  <!-- SWIPER PARA CARRUSEL IMAGENES -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+
+  <!-- GOOGLE FONTS  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- CDN BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- CDN BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet"> -->
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <!-- Complemento leaflet MapTiler para cambiar vista de tilesLayer -->
+  <script src="https://cdn.maptiler.com/maptiler-sdk-js/v1.1.1/maptiler-sdk.umd.js"></script>
+  <link href="https://cdn.maptiler.com/maptiler-sdk-js/v1.1.1/maptiler-sdk.css" rel="stylesheet">
+  <script src="https://cdn.maptiler.com/leaflet-maptilersdk/v1.0.0/leaflet-maptilersdk.js"></script>
+
+  <!-- ICONO PESTAÑA -->
+  <link rel="icon" href="../assets/images/menu/logo-iniseg.png" type="image/png">
+</head>
+
+<body>
+
+  <div id="contenedor_carga">
+    <div id="carga"></div>
+    <div id="cargaLogo"><img src="../assets/images/menu/logo-azul.png" alt="iniseg logo"></div>
+  </div>
+
+  <header>
+    <div class="header-info-container">
+      <div class="header-info-icons-mobile header-icons">
+        <a href="https://www.facebook.com/InisegOficial/" target="_blank" rel="noopener noreferer"><i
+            class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/inisegoficial/" target="_blank" rel="noopener noreferer"><i
+            class="bi bi-instagram"></i></a>
+        <a href="https://twitter.com/InisegOficial" target="_blank" rel="noopener noreferer"><i
+            class="bi bi-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCpvTeWrw-xa3XUYlUqQoJdw" target="_blank" rel="noopener noreferer"><i
+            class="bi bi-youtube"></i></a>
+        <a href="https://www.linkedin.com/company/inisegoficial/" target="_blank" rel="noopener noreferer"><i
+            class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="header-info">
+        <div class="header-info-btn">
+          <div class="header-info-btn-link">
+            <a href="https://www.iniseg.es/contacto.html" target="_blank" rel="noopener noreferer">Solicitar
+              Información</a>
+          </div>
+        </div>
+        <div class="header-info-icons-desktop header-icons">
+          <a href="https://www.facebook.com/InisegOficial/" target="_blank" rel="noopener noreferer"><i
+              class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/inisegoficial/" target="_blank" rel="noopener noreferer"><i
+              class="bi bi-instagram"></i></a>
+          <a href="https://twitter.com/InisegOficial" target="_blank" rel="noopener noreferer"><i
+              class="bi bi-twitter"></i></a>
+          <a href="https://www.youtube.com/channel/UCpvTeWrw-xa3XUYlUqQoJdw" target="_blank" rel="noopener noreferer"><i
+              class="bi bi-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/inisegoficial/" target="_blank" rel="noopener noreferer"><i
+              class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="header-info-phone">
+          <i class="bi bi-telephone"></i>
+          <span> (+34) 912 141 926 </span>
+        </div>
+        <div class="header-info-aula">
+          <div class="header-info-aula-btn">
+            <a href="https://www.iniseg.es/campus.html" target="_blank" rel="noopener noreferer">Aula Virtual</a>
+          </div>
+        </div>
+        <div class="header-info-lang">
+          <div class="header-info-lang-icon">
+            <i class="bi bi-globe"></i>
+            <span class="info-lang">Español</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar">
+      <div class="container">
+        <div class="header-img-container">
+          <a href="https://www.iniseg.es/" rel="noopener noreferer">
+            <img class="logo" src="../assets/images/menu/nombre-blanco.png"
+              alt="Logo instituto internacional de estudios en Seguridad global iniseg">
+          </a>
+        </div>
+        <ul class="nav-menu">
+          <!-- ESTUDIOS -->
+          <li class="nav-menu-item">
+            <i class="bi bi-chevron-right"></i>
+            <a href="#">ESTUDIOS</a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <span class="dropdown-close">
+                  <i class="bi bi-chevron-double-left"></i>
+                  Regresar
+                </span>
+                <div class="right-section">
+                  <ul class="dropdown-links">
+                    <li>
+                      <div class="dropdown-links-items">
+                        <h5>Por Tipo</h5>
+                        <hr>
+                        <a href="#" rel="noopener noreferer" class="underline">Másteres Oficiales</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Másteres Executives</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Másteres Profesionales</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Diplomados Superiores y Cursos
+                          Técnicos</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Formación Continua</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <h5>Por Área</h5>
+                        <hr>
+                        <a href="#" rel="noopener noreferer" class="underline">Seguridad Privada</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Inteligencia</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Criminología Y Criminalística</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Seguridad y Defensa</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Relaciones Internacionales</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Ciberseguridad</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <h5>Por Entidad</h5>
+                        <hr>
+                        <a href="#" rel="noopener noreferer" class="underline">Universidad eCampus</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Universidad Antonio de Nebrija</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Universidad Complutense De Madrid</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Iniseg</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- QUIENES SOMOS -->
+          <li class="nav-menu-item">
+            <i class="bi bi-chevron-right"></i>
+            <a href="#">QUIENES SOMOS</a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <span class="dropdown-close">
+                  <i class="bi bi-chevron-double-left"></i>
+                  Regresar
+                </span>
+                <div class="right-section">
+                  <ul class="dropdown-links">
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="https://www.iniseg.es/profesorado.html" rel="noopener noreferer"
+                          class="underline">Claustro Docente</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="https://www.iniseg.es/alianzas-iniseg.html" rel="noopener noreferer"
+                          class="underline">Alianzas Académicas</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="#" rel="noopener noreferer" class="underline">Alianzas Institucionales</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- ESTUDIAR EN INISEG -->
+          <li class="nav-menu-item">
+            <i class="bi bi-chevron-right"></i>
+            <a href="#">ESTUDIAR EN INISEG</a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <span class="dropdown-close">
+                  <i class="bi bi-chevron-double-left"></i>
+                  Regresar
+                </span>
+                <div class="right-section">
+                  <ul class="dropdown-links">
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="https://www.iniseg.es/metodologia-iniseg.html" rel="noopener noreferer"
+                          class="underline">Metodología</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="https://www.iniseg.es/becas-ayudas.html" rel="noopener noreferer"
+                          class="underline">Becas y Ayudas</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="https://www.iniseg.es/titulaciones.php" rel="noopener noreferer"
+                          class="underline">Titulaciones</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="https://www.iniseg.es/tasas-y-expedicion.php" rel="noopener noreferer"
+                          class="underline">Tasas y Expediciones</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="#" rel="noopener noreferer" class="underline">Financiación</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="#" rel="noopener noreferer" class="underline">Empresas (Formación Bonificada)</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- INTERNACIONAL -->
+          <li class="nav-menu-item">
+            <i class="bi bi-chevron-right"></i>
+            <a href="#">INTERNACIONAL</a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <span class="dropdown-close">
+                  <i class="bi bi-chevron-double-left"></i>
+                  Regresar
+                </span>
+                <div class="right-section">
+                  <ul class="dropdown-links">
+                    <li>
+                      <div class="dropdown-links-items">
+                        <h5>Iniseg Global</h5>
+                        <hr>
+                        <a href="https://www.iniseg.es/colombia/" rel="noopener noreferer"
+                          class="underline">Colombia</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Ecuador</a>
+                        <a href="#" rel="noopener noreferer" class="underline">Rep. Dominicana</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <h5>Proyectos Internacionales</h5>
+                        <hr>
+                        <a href="#" rel="noopener noreferer" class="underline">Mescyt 2023</a>
+                        <a href="#" rel="noopener noreferer" class="underline">EGRADH</a>
+                        <a href="#" rel="noopener noreferer" class="underline">SECAP</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- INVESTIGACIÓN -->
+          <li class="nav-menu-item">
+            <i class="bi bi-chevron-right"></i>
+            <a href="#">INVESTIGACIÓN</a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <span class="dropdown-close">
+                  <i class="bi bi-chevron-double-left"></i>
+                  Regresar
+                </span>
+                <div class="right-section">
+                  <ul class="dropdown-links">
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="#" rel="noopener noreferer" class="underline">Escuela De Doctorado</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <h5>CIIA</h5>
+                        <hr>
+                        <a href="historia_militar/historiaMilitar.html" rel="noopener noreferer">Grupo de Investigación
+                          Historia Militar</a>
+                        <a href="https://www.ocatry.org/" rel="noopener noreferer">OCATRY</a>
+                        <a href="https://www.colegio-inteligencia.eu/" rel="noopener noreferer">Colegio
+                          Universitario</a>
+                        <a href="https://destinywithliberty.org/" rel="noopener noreferer">Destiny With Liberty</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- COMUNICACIÓN -->
+          <li class="nav-menu-item">
+            <i class="bi bi-chevron-right"></i>
+            <a href="#">COMUNICACIÓN</a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <span class="dropdown-close">
+                  <i class="bi bi-chevron-double-left"></i>
+                  Regresar
+                </span>
+                <div class="right-section">
+                  <ul class="dropdown-links">
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="https://www.iniseg.es/comunicacion-iniseg/blog/category/iniseg/"
+                          rel="noopener noreferer" class="underline">Noticias</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="https://www.iniseg.es/comunicacion-iniseg/blogs-iniseg/" rel="noopener noreferer"
+                          class="underline">Blog</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="https://www.iniseg.es/eventos-iniseg/" rel="noopener noreferer"
+                          class="underline">Eventos</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown-links-items">
+                        <a href="https://www.iniseg.es/comunicacion-iniseg/iniseg-cast/" rel="noopener noreferer"
+                          class="underline">Iniseg Cast</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <i class="bi bi-list toggle-navbar"></i>
+      </div>
+    </nav>
+    <!-- Swiper -->
+    <div class="swiper swiperHeader header-video">
+      <div class="swiper-wrapper swiper-wrapper-header">
+        <div class="swiper-slide swiper-slide-header" data-tooltip="Da Click">
+          <a href="https://www.iniseg.es/" rel="noopener noreferer">
+            <picture>
+              <source srcset="../assets/banners/banner-ecu-w.webp" media="(min-width: 600px)" type="image/webp">
+              <source srcset="../assets/banners/banner-ecu.jpg" media="(min-width: 600px)" type="image/jpg">
+              <img src="../assets/banners/banner-ecu-sm.jpg" alt="Iniseg Innovacion">
+            </picture>
+            <div class="header-video-text">
+              <h1>INISEG ECUADOR</h1>
+              <h2><span class="header-video-sub1">Único Campus Académico<br></span> Internacional en <br><span
+                  class="header-video-sub2">Seguridad y Defensa</span></h2>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide swiper-slide-header" data-tooltip="Da Click">
+          <a href="#" rel="noopener noreferer">
+            <picture>
+              <source srcset="../assets/banners/test.png" media="(min-width: 600px)" type="image/webp">
+              <source srcset="../assets/banners/test.png" media="(min-width: 600px)" type="image/jpg">
+              <img src="../assets/banners/test.png" alt="Iniseg Innovacion">
+            </picture>
+            <div class="header-video-text">
+              <h2>INISEG</h2>
+              <h2><span class="header-video-sub1">Único Campus Académico<br></span> Internacional en <br><span
+                  class="header-video-sub2">Seguridad y Defensa</span></h2>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide swiper-slide-header" data-tooltip="Da Click">
+          <a href="#" rel="noopener noreferer">
+            <picture>
+              <source srcset="../assets/banners/test2.png" media="(min-width: 600px)" type="image/webp">
+              <source srcset="../assets/banners/test2.png" media="(min-width: 600px)" type="image/jpg">
+              <img src="../assets/banners/test2.png" alt="Iniseg Innovacion">
+            </picture>
+            <div class="header-video-text">
+              <h2>INISEG</h2>
+              <h2><span class="header-video-sub1">Único Campus Académico<br></span> Internacional en <br><span
+                  class="header-video-sub2">Seguridad y Defensa</span></h2>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="swiper-button-next swiper-button-next-header"></div>
+      <div class="swiper-button-prev swiper-button-prev-header"></div>
+      <div class="swiper-pagination swiper-pagination-header"></div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <section class="container-section-1">
+      <div class="section-1-search">
+        <form class="section-1-form" id="section-1-form" action="/buscar" method="get">
+          <label class="section-1-label" for="buscador">¿Qué tipo de formación buscas?</label>
+          <div class="section-1-input">
+            <input type="text" name="buscador" id="buscador"
+              placeholder="Escribe el nombre del Curso, área o la universidad que buscas">
+            <button title="search-button" id="search-button" type="submit" form="section-1-form">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+          <img src="../assets/images/flags/ecuador.png" alt="icono bandera de ecuador">
+        </form>
+      </div>
+      <div class="section-1-title">
+        <h3>Nuestras Áreas Académicas</h3>
+        <p>INISEG ofrece una <strong>sección de áreas</strong> de estudio de vanguardia para formar profesionales
+          competentes y preparados en el campo de la seguridad global. ¡Descubre cada una de ellas!</p>
+      </div>
+      <div class="section-1-gallery">
+        <!-- Vista de tarjetas en móvil swiper -->
+        <div class="swiper swiperCards">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper swiperCards-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide swiperCards-slider">
+              <div class="section-1-flip-card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <figure class="section-1-gallery-image">
+                      <div class="image-blur">
+                        <img class="img-lazy pulse" data-src="../assets/images/cards/card001.jpg"
+                          src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                      </div>
+                      <figcaption class="section-1-text">
+                        <p>Seguridad Pública y Privada</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="card-back">
+                    <a href="#" rel="noopener noreferer">
+                      <figure class="section-1-gallery-image gallery-img-back">
+                        <div class="image-blur">
+                          <img class="img-lazy pulse" data-src="../assets/images/cards/card001.jpg"
+                            src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                        </div>
+                        <figcaption class="section-1-text">
+                          <p>INISEG, el Instituto Internacional de estudios en Seguridad Global, es el único campus
+                            universitario online dedicado.</p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                            fill="none">
+                            <path
+                              d="M14.957 11.0793H13.8491C13.7022 11.0793 13.5613 11.1377 13.4574 11.2415C13.3535 11.3454 13.2951 11.4863 13.2951 11.6333V15.511H2.21586V4.43172H7.20154C7.34846 4.43172 7.48936 4.37335 7.59325 4.26946C7.69714 4.16557 7.7555 4.02467 7.7555 3.87775V2.76982C7.7555 2.6229 7.69714 2.482 7.59325 2.37811C7.48936 2.27422 7.34846 2.21586 7.20154 2.21586H1.66189C1.22113 2.21586 0.798423 2.39095 0.486757 2.70261C0.175092 3.01428 0 3.43699 0 3.87775L0 16.065C0 16.5057 0.175092 16.9284 0.486757 17.2401C0.798423 17.5518 1.22113 17.7269 1.66189 17.7269H13.8491C14.2899 17.7269 14.7126 17.5518 15.0242 17.2401C15.3359 16.9284 15.511 16.5057 15.511 16.065V11.6333C15.511 11.4863 15.4526 11.3454 15.3488 11.2415C15.2449 11.1377 15.104 11.0793 14.957 11.0793ZM16.8959 0H12.4642C11.7243 0 11.3545 0.897076 11.8756 1.41953L13.1127 2.65661L4.67407 11.0921C4.59661 11.1693 4.53514 11.261 4.4932 11.362C4.45126 11.463 4.42967 11.5713 4.42967 11.6807C4.42967 11.79 4.45126 11.8983 4.4932 11.9993C4.53514 12.1003 4.59661 12.1921 4.67407 12.2693L5.45897 13.0528C5.53617 13.1303 5.6279 13.1917 5.7289 13.2337C5.82991 13.2756 5.9382 13.2972 6.04756 13.2972C6.15692 13.2972 6.26521 13.2756 6.36622 13.2337C6.46722 13.1917 6.55895 13.1303 6.63615 13.0528L15.0706 4.61591L16.3073 5.85125C16.8267 6.37059 17.7269 6.00705 17.7269 5.26266V0.830947C17.7269 0.610566 17.6393 0.399211 17.4835 0.243379C17.3276 0.0875459 17.1163 0 16.8959 0Z"
+                              fill="white" />
+                          </svg>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiperCards-slider">
+              <div class="section-1-flip-card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <figure class="section-1-gallery-image">
+                      <div class="image-blur">
+                        <img class="img-lazy pulse" data-src="../assets/images/cards/card002.jpg"
+                          src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                      </div>
+                      <figcaption class="section-1-text">
+                        <p>Ciberseguridad</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="card-back">
+                    <a href="#" rel="noopener noreferer">
+                      <figure class="section-1-gallery-image gallery-img-back">
+                        <div class="image-blur">
+                          <img class="img-lazy pulse" data-src="../assets/images/cards/card006.jpg"
+                            src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                        </div>
+                        <figcaption class="section-1-text">
+                          <p>
+                            INISEG, el Instituto Internacional de estudios en Seguridad Global, es el único campus
+                            universitario online dedicado.
+                          </p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                            fill="none">
+                            <path
+                              d="M14.957 11.0793H13.8491C13.7022 11.0793 13.5613 11.1377 13.4574 11.2415C13.3535 11.3454 13.2951 11.4863 13.2951 11.6333V15.511H2.21586V4.43172H7.20154C7.34846 4.43172 7.48936 4.37335 7.59325 4.26946C7.69714 4.16557 7.7555 4.02467 7.7555 3.87775V2.76982C7.7555 2.6229 7.69714 2.482 7.59325 2.37811C7.48936 2.27422 7.34846 2.21586 7.20154 2.21586H1.66189C1.22113 2.21586 0.798423 2.39095 0.486757 2.70261C0.175092 3.01428 0 3.43699 0 3.87775L0 16.065C0 16.5057 0.175092 16.9284 0.486757 17.2401C0.798423 17.5518 1.22113 17.7269 1.66189 17.7269H13.8491C14.2899 17.7269 14.7126 17.5518 15.0242 17.2401C15.3359 16.9284 15.511 16.5057 15.511 16.065V11.6333C15.511 11.4863 15.4526 11.3454 15.3488 11.2415C15.2449 11.1377 15.104 11.0793 14.957 11.0793ZM16.8959 0H12.4642C11.7243 0 11.3545 0.897076 11.8756 1.41953L13.1127 2.65661L4.67407 11.0921C4.59661 11.1693 4.53514 11.261 4.4932 11.362C4.45126 11.463 4.42967 11.5713 4.42967 11.6807C4.42967 11.79 4.45126 11.8983 4.4932 11.9993C4.53514 12.1003 4.59661 12.1921 4.67407 12.2693L5.45897 13.0528C5.53617 13.1303 5.6279 13.1917 5.7289 13.2337C5.82991 13.2756 5.9382 13.2972 6.04756 13.2972C6.15692 13.2972 6.26521 13.2756 6.36622 13.2337C6.46722 13.1917 6.55895 13.1303 6.63615 13.0528L15.0706 4.61591L16.3073 5.85125C16.8267 6.37059 17.7269 6.00705 17.7269 5.26266V0.830947C17.7269 0.610566 17.6393 0.399211 17.4835 0.243379C17.3276 0.0875459 17.1163 0 16.8959 0Z"
+                              fill="white" />
+                          </svg>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiperCards-slider">
+              <div class="section-1-flip-card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <figure class="section-1-gallery-image">
+                      <div class="image-blur">
+                        <img class="img-lazy pulse" data-src="../assets/images/cards/card003.jpg"
+                          src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                      </div>
+                      <figcaption class="section-1-text">
+                        <p>Criminología y Criminalística</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="card-back">
+                    <a href="#" rel="noopener noreferer">
+                      <figure class="section-1-gallery-image gallery-img-back">
+                        <div class="image-blur">
+                          <img class="img-lazy pulse" data-src="../assets/images/cards/card006.jpg"
+                            src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                        </div>
+                        <figcaption class="section-1-text">
+                          <p>
+                            INISEG, el Instituto Internacional de estudios en Seguridad Global, es el único campus
+                            universitario
+                            online dedicado.
+                          </p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                            fill="none">
+                            <path
+                              d="M14.957 11.0793H13.8491C13.7022 11.0793 13.5613 11.1377 13.4574 11.2415C13.3535 11.3454 13.2951 11.4863 13.2951 11.6333V15.511H2.21586V4.43172H7.20154C7.34846 4.43172 7.48936 4.37335 7.59325 4.26946C7.69714 4.16557 7.7555 4.02467 7.7555 3.87775V2.76982C7.7555 2.6229 7.69714 2.482 7.59325 2.37811C7.48936 2.27422 7.34846 2.21586 7.20154 2.21586H1.66189C1.22113 2.21586 0.798423 2.39095 0.486757 2.70261C0.175092 3.01428 0 3.43699 0 3.87775L0 16.065C0 16.5057 0.175092 16.9284 0.486757 17.2401C0.798423 17.5518 1.22113 17.7269 1.66189 17.7269H13.8491C14.2899 17.7269 14.7126 17.5518 15.0242 17.2401C15.3359 16.9284 15.511 16.5057 15.511 16.065V11.6333C15.511 11.4863 15.4526 11.3454 15.3488 11.2415C15.2449 11.1377 15.104 11.0793 14.957 11.0793ZM16.8959 0H12.4642C11.7243 0 11.3545 0.897076 11.8756 1.41953L13.1127 2.65661L4.67407 11.0921C4.59661 11.1693 4.53514 11.261 4.4932 11.362C4.45126 11.463 4.42967 11.5713 4.42967 11.6807C4.42967 11.79 4.45126 11.8983 4.4932 11.9993C4.53514 12.1003 4.59661 12.1921 4.67407 12.2693L5.45897 13.0528C5.53617 13.1303 5.6279 13.1917 5.7289 13.2337C5.82991 13.2756 5.9382 13.2972 6.04756 13.2972C6.15692 13.2972 6.26521 13.2756 6.36622 13.2337C6.46722 13.1917 6.55895 13.1303 6.63615 13.0528L15.0706 4.61591L16.3073 5.85125C16.8267 6.37059 17.7269 6.00705 17.7269 5.26266V0.830947C17.7269 0.610566 17.6393 0.399211 17.4835 0.243379C17.3276 0.0875459 17.1163 0 16.8959 0Z"
+                              fill="white" />
+                          </svg>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiperCards-slider">
+              <div class="section-1-flip-card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <figure class="section-1-gallery-image">
+                      <div class="image-blur">
+                        <img class="img-lazy pulse" data-src="../assets/images/cards/card004.jpg"
+                          src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                      </div>
+                      <figcaption class="section-1-text">
+                        <p>Inteligencia</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="card-back">
+                    <a href="#" rel="noopener noreferer">
+                      <figure class="section-1-gallery-image gallery-img-back">
+                        <div class="image-blur">
+                          <img class="img-lazy pulse" data-src="../assets/images/cards/card006.jpg"
+                            src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                        </div>
+                        <figcaption class="section-1-text">
+                          <p>
+                            INISEG, el Instituto Internacional de estudios en Seguridad Global, es el único campus
+                            universitario
+                            online dedicado.
+                          </p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                            fill="none">
+                            <path
+                              d="M14.957 11.0793H13.8491C13.7022 11.0793 13.5613 11.1377 13.4574 11.2415C13.3535 11.3454 13.2951 11.4863 13.2951 11.6333V15.511H2.21586V4.43172H7.20154C7.34846 4.43172 7.48936 4.37335 7.59325 4.26946C7.69714 4.16557 7.7555 4.02467 7.7555 3.87775V2.76982C7.7555 2.6229 7.69714 2.482 7.59325 2.37811C7.48936 2.27422 7.34846 2.21586 7.20154 2.21586H1.66189C1.22113 2.21586 0.798423 2.39095 0.486757 2.70261C0.175092 3.01428 0 3.43699 0 3.87775L0 16.065C0 16.5057 0.175092 16.9284 0.486757 17.2401C0.798423 17.5518 1.22113 17.7269 1.66189 17.7269H13.8491C14.2899 17.7269 14.7126 17.5518 15.0242 17.2401C15.3359 16.9284 15.511 16.5057 15.511 16.065V11.6333C15.511 11.4863 15.4526 11.3454 15.3488 11.2415C15.2449 11.1377 15.104 11.0793 14.957 11.0793ZM16.8959 0H12.4642C11.7243 0 11.3545 0.897076 11.8756 1.41953L13.1127 2.65661L4.67407 11.0921C4.59661 11.1693 4.53514 11.261 4.4932 11.362C4.45126 11.463 4.42967 11.5713 4.42967 11.6807C4.42967 11.79 4.45126 11.8983 4.4932 11.9993C4.53514 12.1003 4.59661 12.1921 4.67407 12.2693L5.45897 13.0528C5.53617 13.1303 5.6279 13.1917 5.7289 13.2337C5.82991 13.2756 5.9382 13.2972 6.04756 13.2972C6.15692 13.2972 6.26521 13.2756 6.36622 13.2337C6.46722 13.1917 6.55895 13.1303 6.63615 13.0528L15.0706 4.61591L16.3073 5.85125C16.8267 6.37059 17.7269 6.00705 17.7269 5.26266V0.830947C17.7269 0.610566 17.6393 0.399211 17.4835 0.243379C17.3276 0.0875459 17.1163 0 16.8959 0Z"
+                              fill="white" />
+                          </svg>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiperCards-slider">
+              <div class="section-1-flip-card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <figure class="section-1-gallery-image">
+                      <div class="image-blur">
+                        <img class="img-lazy pulse" data-src="../assets/images/cards/card005.jpg"
+                          src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                      </div>
+                      <figcaption class="section-1-text">
+                        <p>Derecho y Relaciones Internacionales</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="card-back">
+                    <a href="#" rel="noopener noreferer">
+                      <figure class="section-1-gallery-image gallery-img-back">
+                        <div class="image-blur">
+                          <img class="img-lazy pulse" data-src="../assets/images/cards/card006.jpg"
+                            src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                        </div>
+                        <figcaption class="section-1-text">
+                          <p>
+                            INISEG, el Instituto Internacional de estudios en Seguridad Global, es el único campus
+                            universitario
+                            online dedicado.
+                          </p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                            fill="none">
+                            <path
+                              d="M14.957 11.0793H13.8491C13.7022 11.0793 13.5613 11.1377 13.4574 11.2415C13.3535 11.3454 13.2951 11.4863 13.2951 11.6333V15.511H2.21586V4.43172H7.20154C7.34846 4.43172 7.48936 4.37335 7.59325 4.26946C7.69714 4.16557 7.7555 4.02467 7.7555 3.87775V2.76982C7.7555 2.6229 7.69714 2.482 7.59325 2.37811C7.48936 2.27422 7.34846 2.21586 7.20154 2.21586H1.66189C1.22113 2.21586 0.798423 2.39095 0.486757 2.70261C0.175092 3.01428 0 3.43699 0 3.87775L0 16.065C0 16.5057 0.175092 16.9284 0.486757 17.2401C0.798423 17.5518 1.22113 17.7269 1.66189 17.7269H13.8491C14.2899 17.7269 14.7126 17.5518 15.0242 17.2401C15.3359 16.9284 15.511 16.5057 15.511 16.065V11.6333C15.511 11.4863 15.4526 11.3454 15.3488 11.2415C15.2449 11.1377 15.104 11.0793 14.957 11.0793ZM16.8959 0H12.4642C11.7243 0 11.3545 0.897076 11.8756 1.41953L13.1127 2.65661L4.67407 11.0921C4.59661 11.1693 4.53514 11.261 4.4932 11.362C4.45126 11.463 4.42967 11.5713 4.42967 11.6807C4.42967 11.79 4.45126 11.8983 4.4932 11.9993C4.53514 12.1003 4.59661 12.1921 4.67407 12.2693L5.45897 13.0528C5.53617 13.1303 5.6279 13.1917 5.7289 13.2337C5.82991 13.2756 5.9382 13.2972 6.04756 13.2972C6.15692 13.2972 6.26521 13.2756 6.36622 13.2337C6.46722 13.1917 6.55895 13.1303 6.63615 13.0528L15.0706 4.61591L16.3073 5.85125C16.8267 6.37059 17.7269 6.00705 17.7269 5.26266V0.830947C17.7269 0.610566 17.6393 0.399211 17.4835 0.243379C17.3276 0.0875459 17.1163 0 16.8959 0Z"
+                              fill="white" />
+                          </svg>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiperCards-slider">
+              <div class="section-1-flip-card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <figure class="section-1-gallery-image">
+                      <div class="image-blur">
+                        <img class="img-lazy pulse" data-src="../assets/images/cards/test.png"
+                          src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                      </div>
+                      <figcaption class="section-1-text">
+                        <p>Criminología y Criminalística</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="card-back">
+                    <a href="#" rel="noopener noreferer">
+                      <figure class="section-1-gallery-image gallery-img-back">
+                        <div class="image-blur">
+                          <img class="img-lazy pulse" data-src="../assets/images/cards/test.png"
+                            src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                        </div>
+                        <figcaption class="section-1-text">
+                          <p>
+                            INISEG, el Instituto Internacional de estudios en Seguridad Global, es el único campus
+                            universitario
+                            online dedicado.
+                          </p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                            fill="none">
+                            <path
+                              d="M14.957 11.0793H13.8491C13.7022 11.0793 13.5613 11.1377 13.4574 11.2415C13.3535 11.3454 13.2951 11.4863 13.2951 11.6333V15.511H2.21586V4.43172H7.20154C7.34846 4.43172 7.48936 4.37335 7.59325 4.26946C7.69714 4.16557 7.7555 4.02467 7.7555 3.87775V2.76982C7.7555 2.6229 7.69714 2.482 7.59325 2.37811C7.48936 2.27422 7.34846 2.21586 7.20154 2.21586H1.66189C1.22113 2.21586 0.798423 2.39095 0.486757 2.70261C0.175092 3.01428 0 3.43699 0 3.87775L0 16.065C0 16.5057 0.175092 16.9284 0.486757 17.2401C0.798423 17.5518 1.22113 17.7269 1.66189 17.7269H13.8491C14.2899 17.7269 14.7126 17.5518 15.0242 17.2401C15.3359 16.9284 15.511 16.5057 15.511 16.065V11.6333C15.511 11.4863 15.4526 11.3454 15.3488 11.2415C15.2449 11.1377 15.104 11.0793 14.957 11.0793ZM16.8959 0H12.4642C11.7243 0 11.3545 0.897076 11.8756 1.41953L13.1127 2.65661L4.67407 11.0921C4.59661 11.1693 4.53514 11.261 4.4932 11.362C4.45126 11.463 4.42967 11.5713 4.42967 11.6807C4.42967 11.79 4.45126 11.8983 4.4932 11.9993C4.53514 12.1003 4.59661 12.1921 4.67407 12.2693L5.45897 13.0528C5.53617 13.1303 5.6279 13.1917 5.7289 13.2337C5.82991 13.2756 5.9382 13.2972 6.04756 13.2972C6.15692 13.2972 6.26521 13.2756 6.36622 13.2337C6.46722 13.1917 6.55895 13.1303 6.63615 13.0528L15.0706 4.61591L16.3073 5.85125C16.8267 6.37059 17.7269 6.00705 17.7269 5.26266V0.830947C17.7269 0.610566 17.6393 0.399211 17.4835 0.243379C17.3276 0.0875459 17.1163 0 16.8959 0Z"
+                              fill="white" />
+                          </svg>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- Vista de tarjetas desktop -->
+        <div class="section-1-flip-cards-container">
+          <div class="section-1-flip-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <figure class="section-1-gallery-image">
+                  <div class="image-blur">
+                    <img class="img-lazy pulse" data-src="../assets/images/cards/card001.jpg"
+                      src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                  </div>
+                  <figcaption class="section-1-text">
+                    <p>Seguridad Pública y Privada</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="card-back">
+                <a href="#" rel="noopener noreferer">
+                  <figure class="section-1-gallery-image gallery-img-back">
+                    <div class="image-blur">
+                      <img class="img-lazy pulse" data-src="../assets/images/cards/card006.jpg"
+                        src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                    </div>
+                    <figcaption class="section-1-text">
+                      <p>INISEG, el Instituto Internacional de estudios en Seguridad Global, es el único campus
+                        universitario
+                        online dedicado.
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path
+                          d="M14.957 11.0793H13.8491C13.7022 11.0793 13.5613 11.1377 13.4574 11.2415C13.3535 11.3454 13.2951 11.4863 13.2951 11.6333V15.511H2.21586V4.43172H7.20154C7.34846 4.43172 7.48936 4.37335 7.59325 4.26946C7.69714 4.16557 7.7555 4.02467 7.7555 3.87775V2.76982C7.7555 2.6229 7.69714 2.482 7.59325 2.37811C7.48936 2.27422 7.34846 2.21586 7.20154 2.21586H1.66189C1.22113 2.21586 0.798423 2.39095 0.486757 2.70261C0.175092 3.01428 0 3.43699 0 3.87775L0 16.065C0 16.5057 0.175092 16.9284 0.486757 17.2401C0.798423 17.5518 1.22113 17.7269 1.66189 17.7269H13.8491C14.2899 17.7269 14.7126 17.5518 15.0242 17.2401C15.3359 16.9284 15.511 16.5057 15.511 16.065V11.6333C15.511 11.4863 15.4526 11.3454 15.3488 11.2415C15.2449 11.1377 15.104 11.0793 14.957 11.0793ZM16.8959 0H12.4642C11.7243 0 11.3545 0.897076 11.8756 1.41953L13.1127 2.65661L4.67407 11.0921C4.59661 11.1693 4.53514 11.261 4.4932 11.362C4.45126 11.463 4.42967 11.5713 4.42967 11.6807C4.42967 11.79 4.45126 11.8983 4.4932 11.9993C4.53514 12.1003 4.59661 12.1921 4.67407 12.2693L5.45897 13.0528C5.53617 13.1303 5.6279 13.1917 5.7289 13.2337C5.82991 13.2756 5.9382 13.2972 6.04756 13.2972C6.15692 13.2972 6.26521 13.2756 6.36622 13.2337C6.46722 13.1917 6.55895 13.1303 6.63615 13.0528L15.0706 4.61591L16.3073 5.85125C16.8267 6.37059 17.7269 6.00705 17.7269 5.26266V0.830947C17.7269 0.610566 17.6393 0.399211 17.4835 0.243379C17.3276 0.0875459 17.1163 0 16.8959 0Z"
+                          fill="white" />
+                      </svg>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="section-1-flip-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <figure class="section-1-gallery-image">
+                  <div class="image-blur">
+                    <img class="img-lazy pulse" data-src="../assets/images/cards/card002.jpg"
+                      src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                  </div>
+                  <figcaption class="section-1-text">
+                    <p>Ciberseguridad</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="card-back">
+                <a href="#" rel="noopener noreferer">
+                  <figure class="section-1-gallery-image gallery-img-back">
+                    <div class="image-blur">
+                      <img class="img-lazy pulse" data-src="../assets/images/cards/card006.jpg"
+                        src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                    </div>
+                    <figcaption class="section-1-text">
+                      <p>
+                        INISEG, el Instituto Internacional de estudios en Seguridad Global, es el único campus
+                        universitario
+                        online dedicado.
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path
+                          d="M14.957 11.0793H13.8491C13.7022 11.0793 13.5613 11.1377 13.4574 11.2415C13.3535 11.3454 13.2951 11.4863 13.2951 11.6333V15.511H2.21586V4.43172H7.20154C7.34846 4.43172 7.48936 4.37335 7.59325 4.26946C7.69714 4.16557 7.7555 4.02467 7.7555 3.87775V2.76982C7.7555 2.6229 7.69714 2.482 7.59325 2.37811C7.48936 2.27422 7.34846 2.21586 7.20154 2.21586H1.66189C1.22113 2.21586 0.798423 2.39095 0.486757 2.70261C0.175092 3.01428 0 3.43699 0 3.87775L0 16.065C0 16.5057 0.175092 16.9284 0.486757 17.2401C0.798423 17.5518 1.22113 17.7269 1.66189 17.7269H13.8491C14.2899 17.7269 14.7126 17.5518 15.0242 17.2401C15.3359 16.9284 15.511 16.5057 15.511 16.065V11.6333C15.511 11.4863 15.4526 11.3454 15.3488 11.2415C15.2449 11.1377 15.104 11.0793 14.957 11.0793ZM16.8959 0H12.4642C11.7243 0 11.3545 0.897076 11.8756 1.41953L13.1127 2.65661L4.67407 11.0921C4.59661 11.1693 4.53514 11.261 4.4932 11.362C4.45126 11.463 4.42967 11.5713 4.42967 11.6807C4.42967 11.79 4.45126 11.8983 4.4932 11.9993C4.53514 12.1003 4.59661 12.1921 4.67407 12.2693L5.45897 13.0528C5.53617 13.1303 5.6279 13.1917 5.7289 13.2337C5.82991 13.2756 5.9382 13.2972 6.04756 13.2972C6.15692 13.2972 6.26521 13.2756 6.36622 13.2337C6.46722 13.1917 6.55895 13.1303 6.63615 13.0528L15.0706 4.61591L16.3073 5.85125C16.8267 6.37059 17.7269 6.00705 17.7269 5.26266V0.830947C17.7269 0.610566 17.6393 0.399211 17.4835 0.243379C17.3276 0.0875459 17.1163 0 16.8959 0Z"
+                          fill="white" />
+                      </svg>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="section-1-flip-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <figure class="section-1-gallery-image">
+                  <div class="image-blur">
+                    <img class="img-lazy pulse" data-src="../assets/images/cards/card003.jpg"
+                      src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                  </div>
+                  <figcaption class="section-1-text">
+                    <p>Criminología y Criminalística</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="card-back">
+                <a href="#" rel="noopener noreferer">
+                  <figure class="section-1-gallery-image gallery-img-back">
+                    <div class="image-blur">
+                      <img class="img-lazy pulse" data-src="../assets/images/cards/card006.jpg"
+                        src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                    </div>
+                    <figcaption class="section-1-text">
+                      <p>INISEG, el Instituto Internacional de estudios en Seguridad Global, es el único campus
+                        universitario
+                        online dedicado.
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path
+                          d="M14.957 11.0793H13.8491C13.7022 11.0793 13.5613 11.1377 13.4574 11.2415C13.3535 11.3454 13.2951 11.4863 13.2951 11.6333V15.511H2.21586V4.43172H7.20154C7.34846 4.43172 7.48936 4.37335 7.59325 4.26946C7.69714 4.16557 7.7555 4.02467 7.7555 3.87775V2.76982C7.7555 2.6229 7.69714 2.482 7.59325 2.37811C7.48936 2.27422 7.34846 2.21586 7.20154 2.21586H1.66189C1.22113 2.21586 0.798423 2.39095 0.486757 2.70261C0.175092 3.01428 0 3.43699 0 3.87775L0 16.065C0 16.5057 0.175092 16.9284 0.486757 17.2401C0.798423 17.5518 1.22113 17.7269 1.66189 17.7269H13.8491C14.2899 17.7269 14.7126 17.5518 15.0242 17.2401C15.3359 16.9284 15.511 16.5057 15.511 16.065V11.6333C15.511 11.4863 15.4526 11.3454 15.3488 11.2415C15.2449 11.1377 15.104 11.0793 14.957 11.0793ZM16.8959 0H12.4642C11.7243 0 11.3545 0.897076 11.8756 1.41953L13.1127 2.65661L4.67407 11.0921C4.59661 11.1693 4.53514 11.261 4.4932 11.362C4.45126 11.463 4.42967 11.5713 4.42967 11.6807C4.42967 11.79 4.45126 11.8983 4.4932 11.9993C4.53514 12.1003 4.59661 12.1921 4.67407 12.2693L5.45897 13.0528C5.53617 13.1303 5.6279 13.1917 5.7289 13.2337C5.82991 13.2756 5.9382 13.2972 6.04756 13.2972C6.15692 13.2972 6.26521 13.2756 6.36622 13.2337C6.46722 13.1917 6.55895 13.1303 6.63615 13.0528L15.0706 4.61591L16.3073 5.85125C16.8267 6.37059 17.7269 6.00705 17.7269 5.26266V0.830947C17.7269 0.610566 17.6393 0.399211 17.4835 0.243379C17.3276 0.0875459 17.1163 0 16.8959 0Z"
+                          fill="white" />
+                      </svg>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="section-1-flip-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <figure class="section-1-gallery-image">
+                  <div class="image-blur">
+                    <img class="img-lazy pulse" data-src="../assets/images/cards/card004.jpg"
+                      src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                  </div>
+                  <figcaption class="section-1-text">
+                    <p>Inteligencia</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="card-back">
+                <a href="#" rel="noopener noreferer">
+                  <figure class="section-1-gallery-image gallery-img-back">
+                    <div class="image-blur">
+                      <img class="img-lazy pulse" data-src="../assets/images/cards/card006.jpg"
+                        src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                    </div>
+                    <figcaption class="section-1-text">
+                      <p>
+                        INISEG, el Instituto Internacional de estudios en Seguridad Global, es el único campus
+                        universitario
+                        online dedicado.
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path
+                          d="M14.957 11.0793H13.8491C13.7022 11.0793 13.5613 11.1377 13.4574 11.2415C13.3535 11.3454 13.2951 11.4863 13.2951 11.6333V15.511H2.21586V4.43172H7.20154C7.34846 4.43172 7.48936 4.37335 7.59325 4.26946C7.69714 4.16557 7.7555 4.02467 7.7555 3.87775V2.76982C7.7555 2.6229 7.69714 2.482 7.59325 2.37811C7.48936 2.27422 7.34846 2.21586 7.20154 2.21586H1.66189C1.22113 2.21586 0.798423 2.39095 0.486757 2.70261C0.175092 3.01428 0 3.43699 0 3.87775L0 16.065C0 16.5057 0.175092 16.9284 0.486757 17.2401C0.798423 17.5518 1.22113 17.7269 1.66189 17.7269H13.8491C14.2899 17.7269 14.7126 17.5518 15.0242 17.2401C15.3359 16.9284 15.511 16.5057 15.511 16.065V11.6333C15.511 11.4863 15.4526 11.3454 15.3488 11.2415C15.2449 11.1377 15.104 11.0793 14.957 11.0793ZM16.8959 0H12.4642C11.7243 0 11.3545 0.897076 11.8756 1.41953L13.1127 2.65661L4.67407 11.0921C4.59661 11.1693 4.53514 11.261 4.4932 11.362C4.45126 11.463 4.42967 11.5713 4.42967 11.6807C4.42967 11.79 4.45126 11.8983 4.4932 11.9993C4.53514 12.1003 4.59661 12.1921 4.67407 12.2693L5.45897 13.0528C5.53617 13.1303 5.6279 13.1917 5.7289 13.2337C5.82991 13.2756 5.9382 13.2972 6.04756 13.2972C6.15692 13.2972 6.26521 13.2756 6.36622 13.2337C6.46722 13.1917 6.55895 13.1303 6.63615 13.0528L15.0706 4.61591L16.3073 5.85125C16.8267 6.37059 17.7269 6.00705 17.7269 5.26266V0.830947C17.7269 0.610566 17.6393 0.399211 17.4835 0.243379C17.3276 0.0875459 17.1163 0 16.8959 0Z"
+                          fill="white" />
+                      </svg>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="section-1-flip-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <figure class="section-1-gallery-image">
+                  <div class="image-blur">
+                    <img class="img-lazy pulse" data-src="../assets/images/cards/card005.jpg"
+                      src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                  </div>
+                  <figcaption class="section-1-text">
+                    <p>Derecho y Relaciones Internacionales</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="card-back">
+                <a href="#" rel="noopener noreferer">
+                  <figure class="section-1-gallery-image gallery-img-back">
+                    <div class="image-blur">
+                      <img class="img-lazy pulse" data-src="../assets/images/cards/card006.jpg"
+                        src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                    </div>
+                    <figcaption class="section-1-text">
+                      <p>INISEG, el Instituto Internacional de estudios en Seguridad Global, es el único campus
+                        universitario
+                        online dedicado.
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path
+                          d="M14.957 11.0793H13.8491C13.7022 11.0793 13.5613 11.1377 13.4574 11.2415C13.3535 11.3454 13.2951 11.4863 13.2951 11.6333V15.511H2.21586V4.43172H7.20154C7.34846 4.43172 7.48936 4.37335 7.59325 4.26946C7.69714 4.16557 7.7555 4.02467 7.7555 3.87775V2.76982C7.7555 2.6229 7.69714 2.482 7.59325 2.37811C7.48936 2.27422 7.34846 2.21586 7.20154 2.21586H1.66189C1.22113 2.21586 0.798423 2.39095 0.486757 2.70261C0.175092 3.01428 0 3.43699 0 3.87775L0 16.065C0 16.5057 0.175092 16.9284 0.486757 17.2401C0.798423 17.5518 1.22113 17.7269 1.66189 17.7269H13.8491C14.2899 17.7269 14.7126 17.5518 15.0242 17.2401C15.3359 16.9284 15.511 16.5057 15.511 16.065V11.6333C15.511 11.4863 15.4526 11.3454 15.3488 11.2415C15.2449 11.1377 15.104 11.0793 14.957 11.0793ZM16.8959 0H12.4642C11.7243 0 11.3545 0.897076 11.8756 1.41953L13.1127 2.65661L4.67407 11.0921C4.59661 11.1693 4.53514 11.261 4.4932 11.362C4.45126 11.463 4.42967 11.5713 4.42967 11.6807C4.42967 11.79 4.45126 11.8983 4.4932 11.9993C4.53514 12.1003 4.59661 12.1921 4.67407 12.2693L5.45897 13.0528C5.53617 13.1303 5.6279 13.1917 5.7289 13.2337C5.82991 13.2756 5.9382 13.2972 6.04756 13.2972C6.15692 13.2972 6.26521 13.2756 6.36622 13.2337C6.46722 13.1917 6.55895 13.1303 6.63615 13.0528L15.0706 4.61591L16.3073 5.85125C16.8267 6.37059 17.7269 6.00705 17.7269 5.26266V0.830947C17.7269 0.610566 17.6393 0.399211 17.4835 0.243379C17.3276 0.0875459 17.1163 0 16.8959 0Z"
+                          fill="white" />
+                      </svg>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="section-1-flip-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <figure class="section-1-gallery-image">
+                  <div class="image-blur">
+                    <img class="img-lazy pulse" data-src="../assets/images/cards/test.png"
+                      src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                  </div>
+                  <figcaption class="section-1-text">
+                    <p>Criminología y Criminalística</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="card-back">
+                <a href="#" rel="noopener noreferer">
+                  <figure class="section-1-gallery-image gallery-img-back">
+                    <div class="image-blur">
+                      <img class="img-lazy pulse" data-src="../assets/images/cards/test.png"
+                        src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen curso">
+                    </div>
+                    <figcaption class="section-1-text">
+                      <p>INISEG, el Instituto Internacional de estudios en Seguridad Global, es el único campus
+                        universitario
+                        online dedicado.
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path
+                          d="M14.957 11.0793H13.8491C13.7022 11.0793 13.5613 11.1377 13.4574 11.2415C13.3535 11.3454 13.2951 11.4863 13.2951 11.6333V15.511H2.21586V4.43172H7.20154C7.34846 4.43172 7.48936 4.37335 7.59325 4.26946C7.69714 4.16557 7.7555 4.02467 7.7555 3.87775V2.76982C7.7555 2.6229 7.69714 2.482 7.59325 2.37811C7.48936 2.27422 7.34846 2.21586 7.20154 2.21586H1.66189C1.22113 2.21586 0.798423 2.39095 0.486757 2.70261C0.175092 3.01428 0 3.43699 0 3.87775L0 16.065C0 16.5057 0.175092 16.9284 0.486757 17.2401C0.798423 17.5518 1.22113 17.7269 1.66189 17.7269H13.8491C14.2899 17.7269 14.7126 17.5518 15.0242 17.2401C15.3359 16.9284 15.511 16.5057 15.511 16.065V11.6333C15.511 11.4863 15.4526 11.3454 15.3488 11.2415C15.2449 11.1377 15.104 11.0793 14.957 11.0793ZM16.8959 0H12.4642C11.7243 0 11.3545 0.897076 11.8756 1.41953L13.1127 2.65661L4.67407 11.0921C4.59661 11.1693 4.53514 11.261 4.4932 11.362C4.45126 11.463 4.42967 11.5713 4.42967 11.6807C4.42967 11.79 4.45126 11.8983 4.4932 11.9993C4.53514 12.1003 4.59661 12.1921 4.67407 12.2693L5.45897 13.0528C5.53617 13.1303 5.6279 13.1917 5.7289 13.2337C5.82991 13.2756 5.9382 13.2972 6.04756 13.2972C6.15692 13.2972 6.26521 13.2756 6.36622 13.2337C6.46722 13.1917 6.55895 13.1303 6.63615 13.0528L15.0706 4.61591L16.3073 5.85125C16.8267 6.37059 17.7269 6.00705 17.7269 5.26266V0.830947C17.7269 0.610566 17.6393 0.399211 17.4835 0.243379C17.3276 0.0875459 17.1163 0 16.8959 0Z"
+                          fill="white" />
+                      </svg>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-section-2">
+      <h3>Actualidad Académica INISEG</h3>
+      <div class="section-2-cards-container">
+        <div class="section-2-card">
+          <img class="img-lazy pulse" data-src="../assets/images/cards/card007.jpg"
+            src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen de noticias y actualidad">
+          <div class="section-2-card-body">
+            <p>13 de Julio de 2023</p>
+            <h6>Ceremonia de Graduación en la EGDDHHyDIH de República Dominicana: ¡Celebrando los Logros de los Alumnos
+              de INISEG!</h6>
+            <p>Santo Domingo, República Dominicana – El día 28 de julio de 2023, la prestigiosa Escuela de Graduados en
+              Derechos Humanos</p>
+          </div>
+        </div>
+        <div class="section-2-card">
+          <img class="img-lazy pulse" data-src="../assets/images/cards/card008.jpg"
+            src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen de noticias y actualidad">
+          <div class="section-2-card-body">
+            <p>10 de Julio de 2023</p>
+            <h6>Procedimiento para reconocer un Máster Oficial de la Universidad eCampus de Italia en la SENESCYT de
+              Ecuador</h6>
+            <p>La Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT) de Ecuador ha
+              establecido un</p>
+          </div>
+        </div>
+        <div class="section-2-card">
+          <img class="img-lazy pulse" data-src="../assets/images/cards/card009.jpg"
+            src="../assets/images/cards/placeholder.jpg" alt="iniseg imagen de noticias y actualidad">
+          <div class="section-2-card-body">
+            <p>06 de Julio de 2023</p>
+            <h6>Firma de convenio de colaboración entre INISEG y Metrorisk: un impulso a la calidad en el sector de la
+              Seguridad</h6>
+            <p>El Instituto Internacional de Estudios en Seguridad Global (INISEG) a través de UINMA (Fundación
+              Universitaria)</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-section-2-link">
+        <a href="#" target="_blank" rel="noopener noreferer">Ver todas las noticias <svg
+            xmlns="http://www.w3.org/2000/svg" width="15" height="23" viewBox="0 0 15 23" fill="none">
+            <path
+              d="M13.8971 12.3938L3.42806 22.6297C2.92315 23.1234 2.10456 23.1234 1.59971 22.6297L0.37867 21.4359C-0.125378 20.9431 -0.126348 20.1443 0.376515 19.6503L8.6734 11.5L0.376515 3.34965C-0.126348 2.85567 -0.125378 2.05694 0.37867 1.56411L1.59971 0.370252C2.10462 -0.123418 2.9232 -0.123418 3.42806 0.370252L13.897 10.6062C14.4019 11.0998 14.4019 11.9002 13.8971 12.3938Z"
+              fill="#FBC009" />
+          </svg></a>
+      </div>
+    </section>
+    <section class="container-section-3-inter section-3-inter">
+      <div class="inter-data">
+        <div class="data-title">
+          <p>INISEG</p>
+          <h3>ECUADOR</h3>
+        </div>
+        <div class="data-body">
+          <div class="body-info">
+            <div class="info-detail">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16" fill="none">
+                <path
+                  d="M20.9292 5.28333C21.0917 5.15417 21.3333 5.275 21.3333 5.47917V14C21.3333 15.1042 20.4375 16 19.3333 16H2C0.895833 16 0 15.1042 0 14V5.48333C0 5.275 0.2375 5.15833 0.404167 5.2875C1.3375 6.0125 2.575 6.93333 6.825 10.0208C7.70417 10.6625 9.1875 12.0125 10.6667 12.0042C12.1542 12.0167 13.6667 10.6375 14.5125 10.0208C18.7625 6.93333 19.9958 6.00833 20.9292 5.28333ZM10.6667 10.6667C11.6333 10.6833 13.025 9.45 13.725 8.94167C19.2542 4.92917 19.675 4.57917 20.95 3.57917C21.1917 3.39167 21.3333 3.1 21.3333 2.79167V2C21.3333 0.895833 20.4375 0 19.3333 0H2C0.895833 0 0 0.895833 0 2V2.79167C0 3.1 0.141667 3.3875 0.383333 3.57917C1.65833 4.575 2.07917 4.92917 7.60833 8.94167C8.30833 9.45 9.7 10.6833 10.6667 10.6667Z"
+                  fill="#FBC009" />
+              </svg>
+              <p> informacion@iniseg.ec</p>
+            </div>
+          </div>
+          <div class="body-info">
+            <div class="info-detail">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12 16" fill="none">
+                <path
+                d="M5.38337 15.6772C0.842812 9.09472 0 8.41915 0 6C0 2.68628 2.68628 0 6 0C9.31372 0 12 2.68628 12 6C12 8.41915 11.1572 9.09472 6.61662 15.6772C6.31865 16.1076 5.68131 16.1076 5.38337 15.6772ZM6 8.5C7.38072 8.5 8.5 7.38072 8.5 6C8.5 4.61928 7.38072 3.5 6 3.5C4.61928 3.5 3.5 4.61928 3.5 6C3.5 7.38072 4.61928 8.5 6 8.5Z"
+                fill="#FBC009" />
+            </svg>
+            <p>Francisco de Paula OE4-13 y 24 de septiembre, Valle de los Chillos, sector puente de la Autopista General
+              Rumiñahui</p>
+            </div>
+          </div>
+          <div class="body-info">
+            <div class="info-detail">
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16" fill="none">
+                <path
+                d="M15.5437 11.3062L12.0436 9.80614C11.8941 9.74241 11.728 9.72899 11.5701 9.76788C11.4123 9.80677 11.2714 9.89587 11.1686 10.0218L9.61861 11.9155C7.18598 10.7686 5.22828 8.81089 4.08132 6.37826L5.9751 4.82824C6.10126 4.72564 6.19054 4.58472 6.22945 4.42684C6.26836 4.26896 6.25477 4.10269 6.19073 3.95322L4.69071 0.453162C4.62043 0.292037 4.49613 0.160484 4.33925 0.0811864C4.18236 0.00188914 4.00273 -0.0201817 3.83132 0.0187795L0.58126 0.768792C0.415998 0.806955 0.26855 0.900007 0.162983 1.03276C0.0574151 1.16551 -3.80697e-05 1.33013 1.8926e-08 1.49974C1.8926e-08 9.51551 6.49699 16 14.5003 16C14.6699 16.0001 14.8346 15.9427 14.9674 15.8371C15.1002 15.7315 15.1933 15.584 15.2315 15.4187L15.9815 12.1687C16.0202 11.9964 15.9977 11.8161 15.9178 11.6587C15.8379 11.5012 15.7056 11.3766 15.5437 11.3062Z"
+                fill="#FBC009" />
+              </svg>
+              <p>(+55) 55555 5555</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="data-footer">
+          <img src="../assets/images/cards/director4.jpg" alt="foto director iniseg ecuador">
+          <div class="footer-info">
+            <h5>Director de Iniseg Ecuador</h5>
+            <p>Ms Miguel Ramiro Mantilla Andrade Gral Insp (SP) Ex Comandante General de la Policía Nacional del Ecuado
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="inter-location">
+        <img src="../assets/images/cards/countryec.jpg" alt="imagen oficina de ecuador">
+        <div class="inter-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1410.6045802197991!2d-78.49690876138746!3d-0.20709828067854427!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a163ba81e6f%3A0x42d0b9bc254b26f6!2sEdificio%20Alamo!5e0!3m2!1ses!2ses!4v1695234433382!5m2!1ses!2ses"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="container-section-6">
+      <div class="section-6-container">
+        <div class="section-6-desc">
+          <h3>Plan de BECAS, AYUDAS Y FINANCIACIÓN</h3>
+          <p>En INISEG nos preocupamos por el futuro y por eso ponemos a tu disposición becas y ayudas, así como la
+            financiación necesaria para que nada te impida que recibas una formación de excelencia.
+          </p>
+          <div class="container-section-6-link">
+            <a href="#" target="_blank" rel="noopener noreferer">Solicita Información
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 23" fill="none">
+                <path
+                  d="M13.8971 12.3938L3.42806 22.6297C2.92315 23.1234 2.10456 23.1234 1.59971 22.6297L0.37867 21.4359C-0.125378 20.9431 -0.126348 20.1443 0.376515 19.6503L8.6734 11.5L0.376515 3.34965C-0.126348 2.85567 -0.125378 2.05694 0.37867 1.56411L1.59971 0.370252C2.10462 -0.123418 2.9232 -0.123418 3.42806 0.370252L13.897 10.6062C14.4019 11.0998 14.4019 11.9002 13.8971 12.3938Z"
+                  fill="#FBC009" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="section-6-formulario">
+          <h3>TE AYUDAMOS</h3>
+          <p>Solicita la ayuda que necesitas y un asesor se pondrá en contacto para ofrecerte una atención
+            personalizada.
+          </p>
+          <form class="section-6-form" id="form-becas" action="#" method="post">
+            <div class="form-group-container">
+              <div class="form-group">
+                <!-- Nombre -->
+                <div class="section-6-input">
+                  <input class="input-6" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                  <i class="bi bi-person-fill"></i>
+                </div>
+                <!-- Apellidos -->
+                <div class="section-6-input">
+                  <input class="input-6" type="text" name="apellidos" id="apellidos" placeholder="Apellidos" required>
+                  <i class="bi bi-person-fill"></i>
+                </div>
+              </div>
+              <div class="form-group">
+                <!-- Email -->
+                <div class="section-6-input">
+                  <input class="input-6" type="email" id="email" name="email" placeholder="Email" required>
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+                <!-- Teléfono -->
+                <div class="section-6-input input-6-phone ">
+                  <div class="selected-option">
+                    <div>
+                      <span class="iconify" data-icon="flag:es-4x3"></span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                      </svg>
+                      <!-- <strong>+44</strong> -->
+                    </div>
+                    <input class="input-6" type="tel" id="phone" name="tel" minlength="5" maxlength="14"
+                      pattern="\+\d{2} [0-9]{4,12}" value="+34 " placeholder="Número de Teléfono" required>
+                    <i class="bi bi-telephone-fill"></i>
+                  </div>
+                  <div class="options">
+                    <input type="text" class="search-box" placeholder="Busca País Por Nombre">
+                    <ol>
+                      <!-- Lista generada por js -->
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <!-- Países -->
+                <div class="section-6-input">
+                  <select class="section-6-select input-6" name="pais" id="pais" title="paises">
+                    <option value="" selected disabled>Pais</option>
+                    <!-- Lista de países generado dinámicamente paises.json -->
+                  </select>
+                </div>
+                <!-- Nivel de Estudios -->
+                <div class="section-6-input">
+                  <select class="section-6-select input-6" name="estudios" id="estudios" title="nivel de estudios">
+                    <option value="" class="select-placeholder" selected disabled>Nivel de Estudios</option>
+                    <option value="na">Sin Estudios</option>
+                    <option value="escolar">Graduado Escolar o Similar</option>
+                    <option value="eso">ESO</option>
+                    <option value="fp1">FP1</option>
+                    <option value="fp2">FP2</option>
+                    <option value="medfp">Grado Medio FP</option>
+                    <option value="bachillerato">Bachillerato</option>
+                    <option value="prueba">Prueba Para Mayores de 25 años</option>
+                    <option value="diploma">Diplimatura Univesitaria</option>
+                    <option value="grado">Grado Universitario</option>
+                    <option value="licenciatura">Licenciatura Universitaria</option>
+                    <option value="postgrado">Postgrado</option>
+                    <option value="master">Máster</option>
+                    <option value="doctorado">Doctorado</option>
+                  </select>
+                </div>
+              </div>
+              <div class="section-6-input section-6-cursos">
+                <select class="section-6-select input-6" name="cursoInteres" id="cursoInteres"
+                  title="opciones masters iniseg">
+                  <option value="#" selected disabled>Curso de Interés</option>
+                  <option value="master universitario">Máster Universitario en Seguridad Privada</option>
+                  <option value="master executive">Máster Executive en Seguridad Privada</option>
+                  <option value="master profesional">Máster Profesional en Seguridad Privada</option>
+                </select>
+              </div>
+            </div>
+            <label for="condiciones" class="condiciones">
+              <input class="conditions" type="checkbox" name="condiciones" id="condiciones" required>
+              Al enviar este formulario, acepto estas condiciones legales
+            </label>
+            <button class="form-btn-becas" type="submit" form="form-becas">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="container-section-4">
+      <div class="section-4-title">
+        <h3>Formación Académica Destacada</h3>
+        <p>Descubre los programas académicos más solicitados y con mayor empleabilidad de nuestro catálogo formativo.
+        </p>
+      </div>
+      <div class="section-4-carrusel">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide section-4-swiper-slide">
+              <a href="#" target="_blank" rel="noopener noreferer">
+                <figure class="section-4-img">
+                  <img class="img-lazy pulse" data-src="../assets/images/cards/test.png"
+                    src="../assets/images/cards/placeholder.jpg" alt="tarjeta curso iniseg" loading="lazy">
+                  <div class="swiper-lazy-preloader"></div>
+                  <figcaption class="section-4-desc">
+                    <p>Máster</p>
+                    <p>derecho internacional humanirario</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="swiper-slide section-4-swiper-slide">
+              <a href="#" target="_blank" rel="noopener noreferer">
+                <figure class="section-4-img">
+                  <img class="img-lazy pulse" data-src="../assets/images/cards/slide002.jpg"
+                    src="../assets/images/cards/placeholder.jpg" alt="tarjeta curso iniseg" loading="lazy">
+                  <div class="swiper-lazy-preloader"></div>
+                  <figcaption class="section-4-desc">
+                    <p>Diplomado</p>
+                    <p>historia militar</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="swiper-slide section-4-swiper-slide">
+              <a href="#" target="_blank" rel="noopener noreferer">
+                <figure class="section-4-img">
+                  <img class="img-lazy pulse" data-src="../assets/images/cards/slide003.jpg"
+                    src="../assets/images/cards/placeholder.jpg" alt="tarjeta curso iniseg" loading="lazy">
+                  <div class="swiper-lazy-preloader"></div>
+                  <figcaption class="section-4-desc">
+                    <p>Máster</p>
+                    <p>Reconstrucción de Investigación de Accidentes de Tráfico</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="swiper-slide section-4-swiper-slide">
+              <a href="#" target="_blank" rel="noopener noreferer">
+                <figure class="section-4-img">
+                  <img class="img-lazy pulse" data-src="../assets/images/cards/slide001.jpg"
+                    src="../assets/images/cards/placeholder.jpg" alt="tarjeta curso iniseg" loading="lazy">
+                  <div class="swiper-lazy-preloader"></div>
+                  <figcaption class="section-4-desc">
+                    <p>Máster</p>
+                    <p>Criminalística</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="swiper-slide section-4-swiper-slide">
+              <a href="#" target="_blank" rel="noopener noreferer">
+                <figure class="section-4-img">
+                  <img class="img-lazy pulse" data-src="../assets/images/cards/slide002.jpg"
+                    src="../assets/images/cards/placeholder.jpg" alt="tarjeta curso iniseg" loading="lazy">
+                  <div class="swiper-lazy-preloader"></div>
+                  <figcaption class="section-4-desc">
+                    <p>Máster</p>
+                    <p>Ciberseguridad</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev swiper-btn"></div>
+          <div class="swiper-button-next swiper-btn"></div>
+        </div>
+      </div>
+    </section>
+    <section class="container-section-5">
+      <h3>Próximos Eventos</h3>
+      <div class="date">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 46 46" fill="none">
+          <path
+            d="M0 41.6875C0 44.0684 2.20759 46 4.92857 46H41.0714C43.7924 46 46 44.0684 46 41.6875V17.25H0V41.6875ZM32.8571 24.0781C32.8571 23.4852 33.4116 23 34.0893 23H38.1964C38.8741 23 39.4286 23.4852 39.4286 24.0781V27.6719C39.4286 28.2648 38.8741 28.75 38.1964 28.75H34.0893C33.4116 28.75 32.8571 28.2648 32.8571 27.6719V24.0781ZM32.8571 35.5781C32.8571 34.9852 33.4116 34.5 34.0893 34.5H38.1964C38.8741 34.5 39.4286 34.9852 39.4286 35.5781V39.1719C39.4286 39.7648 38.8741 40.25 38.1964 40.25H34.0893C33.4116 40.25 32.8571 39.7648 32.8571 39.1719V35.5781ZM19.7143 24.0781C19.7143 23.4852 20.2688 23 20.9464 23H25.0536C25.7313 23 26.2857 23.4852 26.2857 24.0781V27.6719C26.2857 28.2648 25.7313 28.75 25.0536 28.75H20.9464C20.2688 28.75 19.7143 28.2648 19.7143 27.6719V24.0781ZM19.7143 35.5781C19.7143 34.9852 20.2688 34.5 20.9464 34.5H25.0536C25.7313 34.5 26.2857 34.9852 26.2857 35.5781V39.1719C26.2857 39.7648 25.7313 40.25 25.0536 40.25H20.9464C20.2688 40.25 19.7143 39.7648 19.7143 39.1719V35.5781ZM6.57143 24.0781C6.57143 23.4852 7.12589 23 7.80357 23H11.9107C12.5884 23 13.1429 23.4852 13.1429 24.0781V27.6719C13.1429 28.2648 12.5884 28.75 11.9107 28.75H7.80357C7.12589 28.75 6.57143 28.2648 6.57143 27.6719V24.0781ZM6.57143 35.5781C6.57143 34.9852 7.12589 34.5 7.80357 34.5H11.9107C12.5884 34.5 13.1429 34.9852 13.1429 35.5781V39.1719C13.1429 39.7648 12.5884 40.25 11.9107 40.25H7.80357C7.12589 40.25 6.57143 39.7648 6.57143 39.1719V35.5781ZM41.0714 5.75H36.1429V1.4375C36.1429 0.646875 35.4036 0 34.5 0H31.2143C30.3107 0 29.5714 0.646875 29.5714 1.4375V5.75H16.4286V1.4375C16.4286 0.646875 15.6893 0 14.7857 0H11.5C10.5964 0 9.85714 0.646875 9.85714 1.4375V5.75H4.92857C2.20759 5.75 0 7.68164 0 10.0625V14.375H46V10.0625C46 7.68164 43.7924 5.75 41.0714 5.75Z"
+            fill="#FCC008" />
+        </svg>
+        <p>Miércoles, 12 May</p>
+      </div>
+      <div class="section-5-events-container">
+        <figure class="section-5-event">
+          <img class="img-lazy pulse" data-src="../assets/images/cards/event001.jpg"
+            src="../assets/images/cards/placeholder.jpg" alt="evento iniseg">
+          <figcaption class="event-desc">
+            <p>¿Vencedores o vencidos? Análisis de la Primera Guerra Mundial</p>
+            <p>18 De Octubre</p>
+          </figcaption>
+        </figure>
+        <figure class="section-5-event">
+          <img class="img-lazy pulse" data-src="../assets/images/cards/event002.jpg"
+            src="../assets/images/cards/placeholder.jpg" alt="evento iniseg">
+          <figcaption class="event-desc">
+            <p>Seguridad y Derechos Humanos</p>
+            <p>01 De Septiembre</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="container-section-5-link">
+        <a href="#" target="_blank" rel="noopener noreferer">Ver todos los eventos <svg
+            xmlns="http://www.w3.org/2000/svg" width="15" height="23" viewBox="0 0 15 23" fill="none">
+            <path
+              d="M13.8971 12.3938L3.42806 22.6297C2.92315 23.1234 2.10456 23.1234 1.59971 22.6297L0.37867 21.4359C-0.125378 20.9431 -0.126348 20.1443 0.376515 19.6503L8.6734 11.5L0.376515 3.34965C-0.126348 2.85567 -0.125378 2.05694 0.37867 1.56411L1.59971 0.370252C2.10462 -0.123418 2.9232 -0.123418 3.42806 0.370252L13.897 10.6062C14.4019 11.0998 14.4019 11.9002 13.8971 12.3938Z"
+              fill="#FBC009" />
+          </svg></a>
+      </div>
+    </section>
+    <section class="container-section-7">
+      <h3>Conoce Nuestras Alianzas Institucionales</h3>
+      <p><strong>Prestigiosas Instituciones nos acompañan</strong>en el desafío de formar a los profesionales más
+        capacitados en Seguridad Global</p>
+      <div class="section-7-images">
+        <img src="../assets/images/logos/Complutense.png" alt="logo universidad complutense">
+        <img src="../assets/images/logos/ecampus.png" alt="logo universidad ecampus">
+        <img src="../assets/images/logos/nebrija.png" alt="logo universidad nebrija">
+      </div>
+      <div class="section-7-cards">
+        <div class="section-7-card">
+          <img class="img-lazy pulse" data-src="../assets/images/cards/campus1.png"
+            src="../assets/images/cards/placeholder.jpg" alt="equipo de profesional">
+          <div class="card-desc">
+            <p>+150 cursos De <span>Formación Continua</span></p>
+            <a href="#" target="_blank" rel="noopener noreferer">Visitar Web</a>
+          </div>
+        </div>
+        <div class="section-7-card">
+          <img class="img-lazy pulse" data-src="../assets/images/cards/campus2.png"
+            src="../assets/images/cards/placeholder.jpg" alt="equipo de profesionales">
+          <div class="card-desc">
+            <p>Nuestros <span>Profesores</span></p>
+            <p>tendrás a tu disposición a los mejores profesionales en Seguridad y Defensa</p>
+            <a href="#" target="_blank" rel="noopener noreferer">Conócelos Aquí</a>
+          </div>
+        </div>
+      </div>
+      <div class="section-7-subscribe">
+        <div class="section-7-newsletter">
+          <h3>Suscríbete al Newsletter</h3>
+          <p>Suscríbete ahora y recibe el boletín semanal con nuevas actualizaciones.</p>
+        </div>
+        <div class="section-7-input">
+          <form class="suscripcion" id="suscripcion" action="suscripcion" method="post">
+            <input type="email" name="suscribir" id="suscribir" placeholder="Escribe tu Email">
+            <button class="suscripcion-btn" type="submit" value="enviar" form="suscripcion">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="container-section-8">
+
+    </section>
+    <section class="container-section-9">
+      <h3>INISEG <span>Blogs destacados</span></h3>
+      <div class="section-9-cards-container">
+        <div class="section-9-card">
+          <div class="section-9-card-desc">
+            <h5>Oportunidades laborales en ciberseguridad</h5>
+            <p>13 de marzo de 2023</p>
+            <p>¿Cuántas oportunidades laborales hay en Latinoamérica relacioandas con ciberseguridad y qué tipo de
+              emepresas puedes trabajar? No es cierto que la transformación digital está cambiando...</p>
+          </div>
+          <div class="section-9-card-icon">
+            <a href="#" target="_blank" rel="noopener noreferer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                <path
+                  d="M12.1094 0C5.42202 0 0 5.42397 0 12.1094C0 18.7987 5.42202 24.2188 12.1094 24.2188C18.7967 24.2188 24.2188 18.7987 24.2188 12.1094C24.2188 5.42397 18.7967 0 12.1094 0ZM12.1094 5.37109C13.242 5.37109 14.1602 6.28926 14.1602 7.42188C14.1602 8.55449 13.242 9.47266 12.1094 9.47266C10.9768 9.47266 10.0586 8.55449 10.0586 7.42188C10.0586 6.28926 10.9768 5.37109 12.1094 5.37109ZM14.8438 17.7734C14.8438 18.097 14.5814 18.3594 14.2578 18.3594H9.96094C9.63735 18.3594 9.375 18.097 9.375 17.7734V16.6016C9.375 16.278 9.63735 16.0156 9.96094 16.0156H10.5469V12.8906H9.96094C9.63735 12.8906 9.375 12.6283 9.375 12.3047V11.1328C9.375 10.8092 9.63735 10.5469 9.96094 10.5469H13.0859C13.4095 10.5469 13.6719 10.8092 13.6719 11.1328V16.0156H14.2578C14.5814 16.0156 14.8438 16.278 14.8438 16.6016V17.7734Z"
+                  fill="#FBCD46" />
+              </svg>
+              Ver Más
+            </a>
+          </div>
+        </div>
+        <div class="section-9-card">
+          <div class="section-9-card-desc">
+            <h5>Oportunidades laborales en ciberseguridad</h5>
+            <p>13 de marzo de 2023</p>
+            <p>¿Cuántas oportunidades laborales hay en Latinoamérica relacioandas con ciberseguridad y qué tipo de
+              emepresas puedes trabajar? No es cierto que la transformación digital está cambiando...</p>
+          </div>
+          <div class="section-9-card-icon">
+            <a href="#" target="_blank" rel="noopener noreferer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                <path
+                  d="M12.1094 0C5.42202 0 0 5.42397 0 12.1094C0 18.7987 5.42202 24.2188 12.1094 24.2188C18.7967 24.2188 24.2188 18.7987 24.2188 12.1094C24.2188 5.42397 18.7967 0 12.1094 0ZM12.1094 5.37109C13.242 5.37109 14.1602 6.28926 14.1602 7.42188C14.1602 8.55449 13.242 9.47266 12.1094 9.47266C10.9768 9.47266 10.0586 8.55449 10.0586 7.42188C10.0586 6.28926 10.9768 5.37109 12.1094 5.37109ZM14.8438 17.7734C14.8438 18.097 14.5814 18.3594 14.2578 18.3594H9.96094C9.63735 18.3594 9.375 18.097 9.375 17.7734V16.6016C9.375 16.278 9.63735 16.0156 9.96094 16.0156H10.5469V12.8906H9.96094C9.63735 12.8906 9.375 12.6283 9.375 12.3047V11.1328C9.375 10.8092 9.63735 10.5469 9.96094 10.5469H13.0859C13.4095 10.5469 13.6719 10.8092 13.6719 11.1328V16.0156H14.2578C14.5814 16.0156 14.8438 16.278 14.8438 16.6016V17.7734Z"
+                  fill="#FBCD46" />
+              </svg>
+              Ver Más
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-1">
+      <div class="footer-1-logo-menu">
+        <div class="footer-logo">
+          <a href="https://www.iniseg.es/" target="_blank" rel="noopener noreferer">
+            <img src="../assets/images/menu/logo-nombre-blanco.png"
+              alt="Logo instituto internacional de estudios en Seguridad global iniseg">
+          </a>
+        </div>
+        <div class="footer-1-content">
+          <div class="sub-footer-1">
+            <div class="footer-menu estudios">
+              <div>
+                <a class="d-flex g-2 justify-content-between flex-grow-1 animate " data-bs-toggle="collapse"
+                  href="#collapseEstudios" role="button" aria-expanded="false" aria-controls="collapseEstudios">
+                  ESTUDIOS<i class="bi bi-plus-lg"></i></a>
+              </div>
+              <div class="sub-footer-1-list collapse" id="collapseEstudios">
+                <ul>
+                  <li>
+                    <a href="">
+                      Por Tipo
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      Por Área
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      Por Entidad
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-menu somos">
+              <div>
+                <a class="d-flex g-2 justify-content-between flex-grow-1 animate" data-bs-toggle="collapse"
+                  href="#collapseIniseg" role="button" aria-expanded="false" aria-controls="collapseIniseg">QUIENES
+                  SOMOS<i class="bi bi-plus-lg"></i></a>
+              </div>
+              <div class="sub-footer-1-list collapse" id="collapseIniseg">
+                <ul>
+                  <li>
+                    <a href="https://www.iniseg.es/profesorado.html" target="_blank" rel="noopener noreferer">
+                      Claustro Docente
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.iniseg.es/alianzas-iniseg.html" target="_blank" rel="noopener noreferer">
+                      Alianzas Académicas
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferer">
+                      Alianzas Institucionales
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="sub-footer-1">
+            <div class="footer-menu estudiar">
+              <div>
+                <a class="d-flex g-2 justify-content-between flex-grow-1 animate" data-bs-toggle="collapse"
+                  href="#collapseEstudiar" role="button" aria-expanded="false" aria-controls="collapseEstudiar">ESTUDIAR
+                  EN INISEG<i class="bi bi-plus-lg"></i></a>
+              </div>
+              <div class="sub-footer-1-list collapse" id="collapseEstudiar">
+                <ul>
+                  <li>
+                    <a href="https://www.iniseg.es/metodologia-iniseg.html" target="_blank" rel="noopener noreferer">
+                      Metodología
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.iniseg.es/becas-ayudas.html" target="_blank" rel="noopener noreferer">
+                      Becas y Ayudas
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.iniseg.es/titulaciones.php" target="_blank" rel="noopener noreferer">
+                      Titulaciones
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.iniseg.es/tasas-y-expedicion.php" target="_blank" rel="noopener noreferer">
+                      Tasas y Expediciones
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferer">
+                      Financiación
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferer">
+                      Empresas (Formación Bonificada)
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="sub-footer-1">
+            <div class="footer-menu internacional">
+              <div>
+                <a class="d-flex g-2 justify-content-between flex-grow-1 animate" data-bs-toggle="collapse"
+                  href="#collapsInternacional" role="button" aria-expanded="false" aria-controls="collapsInternacional">
+                  INTERNACIONAL<i class="bi bi-plus-lg"></i></a>
+              </div>
+              <div class="sub-footer-1-list collapse" id="collapsInternacional">
+                <ul>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferer">
+                      Iniseg Global
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferer">
+                      Proyectos Internacionales
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-menu investigacion">
+              <div>
+                <a class="d-flex g-2 justify-content-between flex-grow-1 animate" data-bs-toggle="collapse"
+                  href="#collapseInvestigacion" role="button" aria-expanded="false"
+                  aria-controls="collapseInvestigacion">INVESTIGACIÓN<i class="bi bi-plus-lg"></i></a>
+              </div>
+              <div class="sub-footer-1-list collapse" id="collapseInvestigacion">
+                <ul>
+                  <li>
+                    <a href="../historia_militar/historiaMilitar.html" target="_blank" rel="noopener noreferer">
+                      Grupo de investicacion militar
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.ocatry.org/" target="_blank" rel="noopener noreferer">
+                      OCATRY
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.colegio-inteligencia.eu/" target="_blank" rel="noopener noreferer">
+                      colegio Universitario
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://destinywithliberty.org/" target="_blank" rel="noopener noreferer">
+                      Destiny With Liberty
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="sub-footer-1">
+            <div class="footer-menu comunicacion">
+              <div>
+                <a class="d-flex g-2 justify-content-between flex-grow-1 animate" data-bs-toggle="collapse"
+                  href="#collapseComunicacion" role="button" aria-expanded="false" aria-controls="collapseComunicacion">
+                  COMUNICACIÓN<i class="bi bi-plus-lg"></i></a>
+              </div>
+              <div class="sub-footer-1-list collapse" id="collapseComunicacion">
+                <ul>
+                  <li>
+                    <a href="https://www.iniseg.es/comunicacion-iniseg/blog/category/iniseg/" target="_blank"
+                      rel="noopener noreferer">
+                      Noticias
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.iniseg.es/comunicacion-iniseg/blogs-iniseg/" target="_blank"
+                      rel="noopener noreferer">
+                      Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.iniseg.es/eventos-iniseg/" target="_blank" rel="noopener noreferer">
+                      Eventos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.iniseg.es/comunicacion-iniseg/iniseg-cast/" target="_blank"
+                      rel="noopener noreferer">
+                      Iniseg Cast
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-1-icons-address">
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/InisegOficial/" target="_blank" rel="noopener noreferer"><i
+              class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/inisegoficial/" target="_blank" rel="noopener noreferer"><i
+              class="bi bi-instagram"></i></a>
+          <a href="https://twitter.com/InisegOficial" target="_blank" rel="noopener noreferer"><i
+              class="bi bi-twitter"></i></a>
+          <a href="https://www.youtube.com/channel/UCpvTeWrw-xa3XUYlUqQoJdw" target="_blank" rel="noopener noreferer"><i
+              class="bi bi-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/inisegoficial/" target="_blank" rel="noopener noreferer"><i
+              class="bi bi-linkedin"></i></a>
+        </div>
+        <h3>FORMAS DE PAGO</h3>
+        <img src="../assets/images/footer-logos/metodos-pago.png" alt="métodos de pago">
+        <div class="footer-address">
+          <p>Calle Emilia Pardo Bazán 1,<br>28903 Getafe, Madrid</p>
+          <p>(+34) 912 141 926</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-2">
+      <a href="https://euphe.eu/" target="_blank" rel="noopener noreferer">
+        <img src="../assets/images/footer-logos/euphe-logo-gray.png"
+          alt="logo de European union of private higher education EUPHE ">
+      </a>
+      <a href="https://www.aeen.org/" target="_blank" rel="noopener noreferer">
+        <img src="../assets/images/footer-logos/aen-logo.png"
+          alt="logo asociación española de escuela de negocios aeen">
+      </a>
+      <a href="https://www.mjusticia.gob.es/" target="_blank" rel="noopener noreferer">
+        <img src="../assets/images/footer-logos/Logotipo_del_Ministerio_de_Justicia.png"
+          alt="logo ministerio de justicia españa">
+      </a>
+      <a href="https://www.interior.gob.es/" target="_blank" rel="noopener noreferer">
+        <img src="../assets/images/footer-logos/Logotipo_del_Ministerio_del_Interior.png"
+          alt="logo ministerio del interior españa">
+      </a>
+      <a href="https://qfor.org/obtenir_le_label_qfor.php?txtlang=es" target="_blank" rel="noopener noreferer">
+        <img src="../assets/images/footer-logos/qfor-logo.svg" alt="logo de certificación qfor" width="100"
+          height="100">
+      </a>
+    </div>
+    <div class="footer-3">
+      <p>Copyrights © 2022</p>
+      <p>Todos los derechos reservados</p>
+      <span>/</span>
+      <a href="https://www.iniseg.es/condiciones-generales-de-contratacion.html" target="_blank"
+        rel="noopener noreferer">Condiciones generales de contratación</a>
+      <span>/</span>
+      <a href="https://www.iniseg.es/aviso-legal.html" target="_blank" rel="noopener noreferer">Aviso legal</a>
+      <span>/</span>
+      <a href="https://www.iniseg.es/politica-sobre-cookies.html" target="_blank" rel="noopener noreferer">Política
+        de Cookies</a>
+      <span>/</span>
+      <a href="https://www.iniseg.es/politica-de-privacidad.html" target="_blank" rel="noopener noreferer">Política
+        de privacidad</a>
+    </div>
+  </footer>
+
+  <!-- SWIPER PARA CARRUSEL IMAGENES -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <!-- Icons Flags -->
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <script src="../js/phoneForm.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/index.js" type="module"></script>
+
+</body>
+
+</html>
