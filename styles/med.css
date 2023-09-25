@@ -7,6 +7,10 @@
     aspect-ratio: 3/1;
   }
 
+  .swiper-slide-header img {
+    max-height: 500px;
+  }
+
    /* -- ### CONTAINER SECTION 1  */
   /* -- form search */
   .section-1-form {

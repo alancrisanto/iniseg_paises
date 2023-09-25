@@ -3,7 +3,7 @@
 }
 
 .swiper-pagination-header .swiper-pagination-bullet:nth-child(2) {
-  background: rgb(var(--blue));
+  background: rgb(0, 20, 142);
 }
 
 .swiper-pagination-header .swiper-pagination-bullet:nth-child(3) {
