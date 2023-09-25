@@ -1,0 +1,13 @@
+/* #### HEADER */
+
+.swiper-pagination-header .swiper-pagination-bullet:nth-child(1) {
+  background: rgb(var(--red));
+}
+
+.swiper-pagination-header .swiper-pagination-bullet:nth-child(2) {
+  background: rgb(255, 255, 255);
+}
+
+.swiper-pagination-header .swiper-pagination-bullet:nth-child(3) {
+  background: rgb(var(--red));
+}
