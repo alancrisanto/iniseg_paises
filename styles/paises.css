@@ -103,6 +103,17 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 1rem;
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    .inter-data, .inter-location {
+      margin:unset;
+      max-width: 100%;
+    }
+
+    .footer-info {
+      justify-self: start;
     }
   
     .inter-location {
