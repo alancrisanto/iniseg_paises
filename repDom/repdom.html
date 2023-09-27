@@ -9,47 +9,56 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "@id": "https://www.iniseg.es#organization",
-          "description": "Masters y Cursos de INISEG, docentes expertos, material actualizado. Programa de Becas y Financiación. Programa online 100% tutorizado.",
-          "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
-          "sameAs": [
-            "https://www.youtube.com/c/inisegoficial",
-            "https://www.facebook.com/InisegOficial/",
-            "https://twitter.com/InisegOficial",
-            "https://es.linkedin.com/company/inisegoficial",
-            "https://www.instagram.com/inisegoficial/"
-          ],
-          "url": "https://www.iniseg.es",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Getafe, Madrid, España",
-            "postalCode": "28903",
-            "streetAddress": "Calle Emilia Pardo Bazán 1"
-          },
-          "telephone": "+34912141926",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "assets/images/menu/logo-nombre-blanco.png"
-          }
+      "@type": "EducationalOrganization",
+      "@id": "https://www.iniseg.es/republicaDominicana#organization",
+      "name": "INISEG REPÚBLICA DOMINICANA Instituto Internacional de Estudios en Seguridad Global",
+      "description": "INISEG REPÚBLICA DOMINICANA ofrece Másters y Cursos con instructores expertos, materiales actualizados, becas y opciones de financiamiento. Programas en línea 100% guiados por tutores.",
+      "url": "https://www.iniseg.es/repdominicana",
+      "sameAs": [
+        "https://www.youtube.com/c/inisegoficial",
+        "https://www.facebook.com/InisegOficial/",
+        "https://twitter.com/InisegOficial",
+        "https://es.linkedin.com/company/inisegoficial",
+        "https://www.instagram.com/inisegoficial/"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": ""
+        "addressLocality": "",
+        "addressRegion": "",
+        "addressCountry": "República Dominicana"
+        "postalCode": "",
+      },
+      "telephone": "+1 809 2849208",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "assets/images/menu/logo-nombre-blanco.png"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1 809 2849208",
+        "contactType": "servicio al cliente",
+        "email": "informacion@iniseg.do",
+        "areaServed": "DO",
+        "availableLanguage": ["es"]
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.iniseg.es/repdominicana/search?q={search_term_string}"
         },
-        {
-          "@type": "WebSite",
-          "@id": "https://www.iniseg.es#website",
-          "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
-          "url": "https://www.iniseg.es",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://www.iniseg.es/search?&q={query}",
-            "query-input": "required name=search_term_string",
-            "url": "https://www.iniseg.es/buscador/{search_term_string}"
-          }
-        }
-      ]
+        "query-input": "required name=search_term_string"
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "@id": "https://www.iniseg.es#organization",
+        "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
+        "url": "https://www.iniseg.es"
+      }
     }
   </script>
+
 
   <!-- HTML Meta Tags -->
   <title>Iniseg República Dominicana</title>

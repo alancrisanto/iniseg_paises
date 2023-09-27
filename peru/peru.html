@@ -9,45 +9,53 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "@id": "https://www.iniseg.es#organization",
-          "description": "Masters y Cursos de INISEG, docentes expertos, material actualizado. Programa de Becas y Financiación. Programa online 100% tutorizado.",
-          "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
-          "sameAs": [
-            "https://www.youtube.com/c/inisegoficial",
-            "https://www.facebook.com/InisegOficial/",
-            "https://twitter.com/InisegOficial",
-            "https://es.linkedin.com/company/inisegoficial",
-            "https://www.instagram.com/inisegoficial/"
-          ],
-          "url": "https://www.iniseg.es",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Getafe, Madrid, España",
-            "postalCode": "28903",
-            "streetAddress": "Calle Emilia Pardo Bazán 1"
-          },
-          "telephone": "+34912141926",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "assets/images/menu/logo-nombre-blanco.png"
-          }
+      "@type": "EducationalOrganization",
+      "@id": "https://www.iniseg.es/peru#organization",
+      "name": "INISEG PERÚ Instituto Internacional de Estudios en Seguridad Global",
+      "description": "INISEG PERÚ ofrece Másters y Cursos con instructores expertos, materiales actualizados, becas y opciones de financiamiento. Programas en línea 100% guiados por tutores.",
+      "url": "https://www.iniseg.es/peru",
+      "sameAs": [
+        "https://www.youtube.com/c/inisegoficial",
+        "https://www.facebook.com/InisegOficial/",
+        "https://twitter.com/InisegOficial",
+        "https://es.linkedin.com/company/inisegoficial",
+        "https://www.instagram.com/inisegoficial/"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle Castilla La Nueva Mz N lote 13. La Molina"
+        "addressLocality": "La Molina",
+        "addressRegion": "Lima",
+        "addressCountry": "Perú"
+        "postalCode": "15024",
+      },
+      "telephone": "+51 956 253 928",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "assets/images/menu/logo-nombre-blanco.png"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+51 956 253 928",
+        "contactType": "servicio al cliente",
+        "email": "informacion@iniseg.pe",
+        "areaServed": "PE",
+        "availableLanguage": ["es"]
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.iniseg.es/peru/search?q={search_term_string}"
         },
-        {
-          "@type": "WebSite",
-          "@id": "https://www.iniseg.es#website",
-          "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
-          "url": "https://www.iniseg.es",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://www.iniseg.es/search?&q={query}",
-            "query-input": "required name=search_term_string",
-            "url": "https://www.iniseg.es/buscador/{search_term_string}"
-          }
-        }
-      ]
+        "query-input": "required name=search_term_string"
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "@id": "https://www.iniseg.es#organization",
+        "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
+        "url": "https://www.iniseg.es"
+      }
     }
   </script>
 
@@ -1114,7 +1122,10 @@
       <div class="inter-location">
         <img src="../assets/images/cards/countryper.jpg" alt="imagen oficina de ecuador">
         <div class="inter-map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d820.1013421012855!2d-76.94306276804079!3d-12.106579582692408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sco!4v1695653920548!5m2!1sen!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d820.1013421012855!2d-76.94306276804079!3d-12.106579582692408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sco!4v1695653920548!5m2!1sen!2sco"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>

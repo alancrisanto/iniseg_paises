@@ -9,45 +9,53 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "@id": "https://www.iniseg.es#organization",
-          "description": "Masters y Cursos de INISEG, docentes expertos, material actualizado. Programa de Becas y Financiación. Programa online 100% tutorizado.",
-          "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
-          "sameAs": [
-            "https://www.youtube.com/c/inisegoficial",
-            "https://www.facebook.com/InisegOficial/",
-            "https://twitter.com/InisegOficial",
-            "https://es.linkedin.com/company/inisegoficial",
-            "https://www.instagram.com/inisegoficial/"
-          ],
-          "url": "https://www.iniseg.es/bolivia",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "La Paz, Bolivia",
-            "postalCode": "28903",
-            "streetAddress": "Av. Muñoz Reyes 1578"
-          },
-          "telephone": "+34912141926",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "assets/images/menu/logo-nombre-blanco.png"
-          }
+      "@type": "EducationalOrganization",
+      "@id": "https://www.iniseg.es/bolivia#organization",
+      "name": "INISEG BOLIVIA Instituto Internacional de Estudios en Seguridad Global",
+      "description": "INISEG BOLIVIA ofrece Másters y Cursos con instructores expertos, materiales actualizados, becas y opciones de financiamiento. Programas en línea 100% guiados por tutores.",
+      "url": "https://www.iniseg.es/bolivia",
+      "sameAs": [
+        "https://www.youtube.com/c/inisegoficial",
+        "https://www.facebook.com/InisegOficial/",
+        "https://twitter.com/InisegOficial",
+        "https://es.linkedin.com/company/inisegoficial",
+        "https://www.instagram.com/inisegoficial/"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Muñoz Reyes 1578"
+        "addressLocality": "Cota Cota",
+        "addressRegion": "La Paz",
+        "addressCountry": "Bolivia"
+        "postalCode": "00591",
+      },
+      "telephone": "+591 789 01482",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "assets/images/menu/logo-nombre-blanco.png"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+59178901482",
+        "contactType": "servicio al cliente",
+        "email": "informacion@iniseg.com.bo",
+        "areaServed": "BO",
+        "availableLanguage": ["es"]
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.iniseg.es/bolivia/search?q={search_term_string}"
         },
-        {
-          "@type": "WebSite",
-          "@id": "https://www.iniseg.es#website",
-          "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
-          "url": "https://www.iniseg.es/bolivia",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://www.iniseg.es/search?&q={query}",
-            "query-input": "required name=search_term_string",
-            "url": "https://www.iniseg.es/buscador/{search_term_string}"
-          }
-        }
-      ]
+        "query-input": "required name=search_term_string"
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "@id": "https://www.iniseg.es#organization",
+        "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
+        "url": "https://www.iniseg.es"
+      }
     }
   </script>
 
@@ -1114,7 +1122,10 @@
       <div class="inter-location">
         <img src="../assets/images/cards/countrybol.jpg" alt="imagen oficina de ecuador">
         <div class="inter-map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1912.3564465517613!2d-68.066469!3d-16.540586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2148ba893ae1%3A0x7c39ff4a21da1086!2sAv.%20Mu%C3%B1oz%20Reyes%2C%20La%20Paz%2C%20Bolivia!5e0!3m2!1ses!2ses!4v1695663771115!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1912.3564465517613!2d-68.066469!3d-16.540586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2148ba893ae1%3A0x7c39ff4a21da1086!2sAv.%20Mu%C3%B1oz%20Reyes%2C%20La%20Paz%2C%20Bolivia!5e0!3m2!1ses!2ses!4v1695663771115!5m2!1ses!2ses"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>

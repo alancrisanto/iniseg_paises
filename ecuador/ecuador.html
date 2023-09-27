@@ -9,45 +9,53 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "@id": "https://www.iniseg.es#organization",
-          "description": "Masters y Cursos de INISEG, docentes expertos, material actualizado. Programa de Becas y Financiación. Programa online 100% tutorizado.",
-          "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
-          "sameAs": [
-            "https://www.youtube.com/c/inisegoficial",
-            "https://www.facebook.com/InisegOficial/",
-            "https://twitter.com/InisegOficial",
-            "https://es.linkedin.com/company/inisegoficial",
-            "https://www.instagram.com/inisegoficial/"
-          ],
-          "url": "https://www.iniseg.es",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Getafe, Madrid, España",
-            "postalCode": "28903",
-            "streetAddress": "Calle Emilia Pardo Bazán 1"
-          },
-          "telephone": "+34912141926",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "assets/images/menu/logo-nombre-blanco.png"
-          }
+      "@type": "EducationalOrganization",
+      "@id": "https://www.iniseg.es/ecuador#organization",
+      "name": "INISEG ECUADOR Instituto Internacional de Estudios en Seguridad Global",
+      "description": "INISEG ECUADOR ofrece Másters y Cursos con instructores expertos, materiales actualizados, becas y opciones de financiamiento. Programas en línea 100% guiados por tutores.",
+      "url": "https://www.iniseg.es/ecuador",
+      "sameAs": [
+        "https://www.youtube.com/c/inisegoficial",
+        "https://www.facebook.com/InisegOficial/",
+        "https://twitter.com/InisegOficial",
+        "https://es.linkedin.com/company/inisegoficial",
+        "https://www.instagram.com/inisegoficial/"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Francisco de Paula OE4-13 y 24 de septiembre, Valle de los Chillos, sector puente de la Autopista General Rumiñahui",
+        "addressLocality": "Quito",
+        "addressRegion": "Pichincha",
+        "addressCountry": "Ecuador
+        "postalCode": "170526",
+      },
+      "telephone": "",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "assets/images/menu/logo-nombre-blanco.png"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "",
+        "contactType": "servicio al cliente",
+        "email": "informacion@iniseg.ec",
+        "areaServed": "EC",
+        "availableLanguage": ["es"]
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.iniseg.es/ecuador/search?q={search_term_string}"
         },
-        {
-          "@type": "WebSite",
-          "@id": "https://www.iniseg.es#website",
-          "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
-          "url": "https://www.iniseg.es",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://www.iniseg.es/search?&q={query}",
-            "query-input": "required name=search_term_string",
-            "url": "https://www.iniseg.es/buscador/{search_term_string}"
-          }
-        }
-      ]
+        "query-input": "required name=search_term_string"
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "@id": "https://www.iniseg.es#organization",
+        "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
+        "url": "https://www.iniseg.es"
+      }
     }
   </script>
 
@@ -81,7 +89,7 @@
   <link rel="stylesheet" href="../styles/med.css">
   <link rel="stylesheet" href="../styles/large.css">
   <link rel="stylesheet" href="../styles/paises.css">
-	<link rel="stylesheet" href="styles_ecu.css">
+  <link rel="stylesheet" href="styles_ecu.css">
 
   <!-- SWIPER PARA CARRUSEL IMAGENES -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
@@ -1039,11 +1047,12 @@
             <div class="info-detail">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12 16" fill="none">
                 <path
-                d="M5.38337 15.6772C0.842812 9.09472 0 8.41915 0 6C0 2.68628 2.68628 0 6 0C9.31372 0 12 2.68628 12 6C12 8.41915 11.1572 9.09472 6.61662 15.6772C6.31865 16.1076 5.68131 16.1076 5.38337 15.6772ZM6 8.5C7.38072 8.5 8.5 7.38072 8.5 6C8.5 4.61928 7.38072 3.5 6 3.5C4.61928 3.5 3.5 4.61928 3.5 6C3.5 7.38072 4.61928 8.5 6 8.5Z"
-                fill="#FBC009" />
-            </svg>
-            <p>Francisco de Paula OE4-13 y 24 de septiembre, Valle de los Chillos, sector puente de la Autopista General
-              Rumiñahui</p>
+                  d="M5.38337 15.6772C0.842812 9.09472 0 8.41915 0 6C0 2.68628 2.68628 0 6 0C9.31372 0 12 2.68628 12 6C12 8.41915 11.1572 9.09472 6.61662 15.6772C6.31865 16.1076 5.68131 16.1076 5.38337 15.6772ZM6 8.5C7.38072 8.5 8.5 7.38072 8.5 6C8.5 4.61928 7.38072 3.5 6 3.5C4.61928 3.5 3.5 4.61928 3.5 6C3.5 7.38072 4.61928 8.5 6 8.5Z"
+                  fill="#FBC009" />
+              </svg>
+              <p>Francisco de Paula OE4-13 y 24 de septiembre, Valle de los Chillos, sector puente de la Autopista
+                General
+                Rumiñahui</p>
             </div>
           </div>
           <div class="body-info">
