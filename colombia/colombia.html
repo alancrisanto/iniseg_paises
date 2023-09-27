@@ -9,45 +9,53 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "@id": "https://www.iniseg.es#organization",
-          "description": "Masters y Cursos de INISEG, docentes expertos, material actualizado. Programa de Becas y Financiación. Programa online 100% tutorizado.",
-          "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
-          "sameAs": [
-            "https://www.youtube.com/c/inisegoficial",
-            "https://www.facebook.com/InisegOficial/",
-            "https://twitter.com/InisegOficial",
-            "https://es.linkedin.com/company/inisegoficial",
-            "https://www.instagram.com/inisegoficial/"
-          ],
-          "url": "https://www.iniseg.es",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Getafe, Madrid, España",
-            "postalCode": "28903",
-            "streetAddress": "Calle Emilia Pardo Bazán 1"
-          },
-          "telephone": "+34912141926",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "assets/images/menu/logo-nombre-blanco.png"
-          }
+      "@type": "EducationalOrganization",
+      "@id": "https://www.iniseg.es/colombia#organization",
+      "name": "INISEG COLOMBIA Instituto Internacional de Estudios en Seguridad Global",
+      "description": "INISEG COLOMBIA ofrece Másters y Cursos con instructores expertos, materiales actualizados, becas y opciones de financiamiento. Programas en línea 100% guiados por tutores.",
+      "url": "https://www.iniseg.es/colombia",
+      "sameAs": [
+        "https://www.youtube.com/c/inisegoficial",
+        "https://www.facebook.com/InisegOficial/",
+        "https://twitter.com/InisegOficial",
+        "https://es.linkedin.com/company/inisegoficial",
+        "https://www.instagram.com/inisegoficial/"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cr.15 # 88-64 edificio Zimma. piso 3 oficina 301.",
+        "addressLocality": "Bogotá",
+        "addressRegion": "Cundinamarca",
+        "addressCountry": "Colombia"
+        "postalCode": "110221",
+      },
+      "telephone": "+57 601 508 5983",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "assets/images/menu/logo-nombre-blanco.png"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+57 601 508 5983",
+        "contactType": "servicio al cliente",
+        "email": "informacion@iniseg.co",
+        "areaServed": "CO",
+        "availableLanguage": ["es"]
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.iniseg.es/colombia/search?q={search_term_string}"
         },
-        {
-          "@type": "WebSite",
-          "@id": "https://www.iniseg.es#website",
-          "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
-          "url": "https://www.iniseg.es",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://www.iniseg.es/search?&q={query}",
-            "query-input": "required name=search_term_string",
-            "url": "https://www.iniseg.es/buscador/{search_term_string}"
-          }
-        }
-      ]
+        "query-input": "required name=search_term_string"
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "@id": "https://www.iniseg.es#organization",
+        "name": "INISEG Instituto Internacional de Estudios en Seguridad Global",
+        "url": "https://www.iniseg.es"
+      }
     }
   </script>
 
