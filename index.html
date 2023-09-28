@@ -25,14 +25,24 @@
           "url": "https://www.iniseg.es",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Getafe, Madrid, España",
+            "addressLocality": "Getafe",
+            "addressRegion": "Madrid",
+            "addressCountry": "España",
             "postalCode": "28903",
             "streetAddress": "Calle Emilia Pardo Bazán 1"
           },
-          "telephone": "+34912141926",
+          "telephone": "+34 912 141 926",
           "logo": {
             "@type": "ImageObject",
             "url": "assets/images/menu/logo-nombre-blanco.png"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+34 912 141 926",
+            "contactType": "servicio al cliente",
+            "email": "informacion@iniseg.es",
+            "areaServed": "ES",
+            "availableLanguage": ["es"]
           }
         },
         {
@@ -42,9 +52,11 @@
           "url": "https://www.iniseg.es",
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://www.iniseg.es/search?&q={query}",
-            "query-input": "required name=search_term_string",
-            "url": "https://www.iniseg.es/buscador/{search_term_string}"
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://www.iniseg.es/search?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
           }
         }
       ]
