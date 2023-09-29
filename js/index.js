@@ -168,9 +168,8 @@ const swiper = new Swiper(".mySwiper", {
 
 // GENERAR LISTA DE PAÍSES EN SELECT OPTION
 const getPaises = async () => {
-	// const response = await fetch("/js/paises.json");
-	// const { countries } = await response.json();
-	services.countries.forEach((country) => {
+	const countries = services.countries;
+	countries.forEach((country) => {
 		const option = document.createElement("option");
 		option.value = country.nombre;
 		option.text = country.nombre;
