@@ -67,7 +67,7 @@ const logo = document.querySelector(".logo");
 const navbarMenu = document.querySelector("nav");
 const navbarStyle = window.getComputedStyle(navbarMenu);
 
-const isIndexPage = currentPagePath === "/index.html" || currentPagePath === "/";
+const isIndexPage = currentPagePath === "/nuevaspaginasinternacionales23/" || currentPagePath === "/";
 
 // SELECCIONAR IMAGEN AL ABRIR LA PÁGINA
 
