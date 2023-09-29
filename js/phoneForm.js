@@ -1,3 +1,5 @@
+import services from "./services.js";
+
 const select_box = document.querySelector(".options");
 const search_box = document.querySelector(".search-box");
 const input_box = document.querySelector('input[type="tel"]');
@@ -7,8 +9,8 @@ let options = null;
 
 // Generar elemento lista con países, bandera y códigos
 const getPaises = async () => {
-	const response = await fetch("/js/paises.json");
-	const { countries } = await response.json();
+	const countries = services.countries;
+	console.log(countries);
 
 	countries.forEach((country) => {
 		const option = `
@@ -22,6 +24,7 @@ const getPaises = async () => {
 
 		select_box.querySelector("ol").insertAdjacentHTML("beforeend", option);
 		options = document.querySelectorAll(".option");
+		console.log("options", options);
 	});
 
 	options.forEach((option) => option.addEventListener("click", selectOption));
@@ -52,7 +55,8 @@ function selectOption() {
 
 function searchCountry() {
 	let search_query = search_box.value.toLowerCase();
-	for (option of options) {
+	for (let option of options) {
+		console.log("option 57", option);
 		let is_matched = option.querySelector(".country-name").innerText.toLowerCase().includes(search_query);
 		option.classList.toggle("hide", !is_matched);
 	}
