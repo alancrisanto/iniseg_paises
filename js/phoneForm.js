@@ -10,7 +10,6 @@ let options = null;
 // Generar elemento lista con países, bandera y códigos
 const getPaises = async () => {
 	const countries = services.countries;
-	console.log(countries);
 
 	countries.forEach((country) => {
 		const option = `
@@ -24,7 +23,6 @@ const getPaises = async () => {
 
 		select_box.querySelector("ol").insertAdjacentHTML("beforeend", option);
 		options = document.querySelectorAll(".option");
-		console.log("options", options);
 	});
 
 	options.forEach((option) => option.addEventListener("click", selectOption));
@@ -56,7 +54,6 @@ function selectOption() {
 function searchCountry() {
 	let search_query = search_box.value.toLowerCase();
 	for (let option of options) {
-		console.log("option 57", option);
 		let is_matched = option.querySelector(".country-name").innerText.toLowerCase().includes(search_query);
 		option.classList.toggle("hide", !is_matched);
 	}
