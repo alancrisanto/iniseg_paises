@@ -1,4 +1,4 @@
-import geoOffice from "./oficinas.js";
+import services from "./services.js";
 
 // ------------------------------------- VARIABLES -----------------------------------
 
@@ -168,9 +168,9 @@ const swiper = new Swiper(".mySwiper", {
 
 // GENERAR LISTA DE PAÍSES EN SELECT OPTION
 const getPaises = async () => {
-	const response = await fetch("/js/paises.json");
-	const { countries } = await response.json();
-	countries.forEach((country) => {
+	// const response = await fetch("/js/paises.json");
+	// const { countries } = await response.json();
+	services.countries.forEach((country) => {
 		const option = document.createElement("option");
 		option.value = country.nombre;
 		option.text = country.nombre;
@@ -217,7 +217,7 @@ if (isIndexPage) {
 		return "";
 	}
 
-	L.geoJSON(geoOffice, {
+	L.geoJSON(services.geoOffice, {
 		onEachFeature: function (feature, layer) {
 			let phone1HTML = mostrarTelf(feature.properties.phone1);
 			let phone2HTML = mostrarTelf(feature.properties.phone2);
