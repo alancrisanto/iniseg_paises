@@ -32,6 +32,8 @@
 
 body {
 	color: rgba(var(--dark-blue), 1) !important;
+	max-width: 2200px;
+	margin: 0 auto !important;
 }
 
 a {

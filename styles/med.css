@@ -5,9 +5,6 @@
   /* HEADER IMG VIDEO */
   .swiper-slide-header img {
     aspect-ratio: 3/1;
-  }
-
-  .swiper-slide-header img {
     max-height: 500px;
   }
 
