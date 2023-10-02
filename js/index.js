@@ -220,6 +220,7 @@ if (isIndexPage) {
 		onEachFeature: function (feature, layer) {
 			let phone1HTML = mostrarTelf(feature.properties.phone1);
 			let phone2HTML = mostrarTelf(feature.properties.phone2);
+			console.log(feature.properties.name)
 
 			if (layer instanceof L.Marker) {
 				let customIcon = L.icon({
