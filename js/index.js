@@ -5,7 +5,7 @@ import services from "./services.js";
 // Variable para detectar el path del archivo
 const currentPagePath = window.location.pathname;
 const isIndexPage =
-  currentPagePath === "/index.html" || currentPagePath === "/";
+  currentPagePath === "/nuevaspaginasinternacionales23/" || currentPagePath === "/";
 
 // variables de lazy loading
 const images = document.querySelectorAll(".img-lazy");
