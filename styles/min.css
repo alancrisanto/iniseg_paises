@@ -537,11 +537,8 @@
 
 .section-2-card-body > p:last-child {
   display: -webkit-box;
-  /* Establecer el tipo de display */
   -webkit-line-clamp: 4;
-  /* Número máximo de líneas */
   -webkit-box-orient: vertical;
-  /* Orientación vertical */
   text-overflow: ellipsis;
   overflow: hidden;
   color: rgb(var(--dark-blue));
