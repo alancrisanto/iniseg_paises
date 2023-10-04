@@ -93,6 +93,18 @@
   color: rgb(var(--light-blue));
 }
 
+.sub-footer-1-list-title a:hover {
+  color: white !important;
+}
+
+.sub-footer-1-sub-list li a {
+  color: rgb(var(--dark-grey)) !important;
+}
+
+.sub-footer-1-sub-list li a:hover {
+  color: rgb(var(--light-blue)) !important;
+}
+
 .footer-icons {
   display: flex;
   justify-content: flex-start;
