@@ -1,3 +1,23 @@
-cambios de estilos en stylesmenu:
+----------------------------------------------
+***cambios de estilos en stylesmenu:
+-----------------------------------------------
 linea 376 al 387
 linea 532 al 535
+-------------------------------------------------
+
+
+-------------------------------------------------
+***Cambios footerMenu
+-------------------------------------------------
+ Lineas 96 al 106
+
+.sub-footer-1-list-title a:hover {
+  color: white !important;
+}
+
+.sub-footer-1-sub-list li a:hover {
+  color: rgb(var(--light-blue)) !important;
+}
+
+------------------------------------------------
+
