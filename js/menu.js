@@ -67,7 +67,7 @@ const logo = document.querySelector(".logo");
 const navbarMenu = document.querySelector("nav");
 const navbarStyle = window.getComputedStyle(navbarMenu);
 
-const isIndexPage = currentPagePath === "/nuevaspaginasinternacionales23/" || currentPagePath === "/";
+const isIndexPage = currentPagePath === "/iniseg_paises/" || currentPagePath === "/";
 
 // SELECCIONAR IMAGEN AL ABRIR LA PÁGINA
 
