@@ -1070,11 +1070,11 @@ input.search-box {
   background-color: rgb(var(--main-yellow));
   border-radius: 8px;
   padding: 0.5rem 1rem;
-  font-size: clamp(1rem, 1.2vw, 1.5rem);
+  font-size: clamp(0.85rem, 1vw, 1rem);
   font-weight: 700;
   text-transform: uppercase;
   margin: 1.5rem auto;
-  width: 85%;
+  /* width: 85%; */
   text-align: center;
   position: relative;
   overflow: hidden;
