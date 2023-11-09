@@ -8,7 +8,7 @@
     max-height: 500px;
   }
 
-   /* -- ### CONTAINER SECTION 1  */
+  /* -- ### CONTAINER SECTION 1  */
   /* -- form search */
   .section-1-form {
     flex-direction: row;
@@ -19,7 +19,7 @@
     margin-left: 2rem;
   }
 
-  .section-1-label{
+  .section-1-label {
     padding: 0 0 0 2rem;
   }
 
@@ -36,14 +36,15 @@
 
   .section-1-form img {
     max-width: 130px;
-    inset:unset;
+    inset: unset;
     margin: initial;
     left: -5rem;
   }
+
   /* -- fin form search */
 
   /* swiper cards cursos */
-  .swiperCards  {
+  .swiperCards {
     display: none !important;
   }
 
@@ -56,7 +57,7 @@
     justify-items: center;
   }
 
- /* -- ### FIN CONTAINER SECTION 1  */
+  /* -- ### FIN CONTAINER SECTION 1  */
 
 
   /* -- ### CONTAINER SECTION 2  */
@@ -148,12 +149,12 @@
 
 
   /* -- ### CONTAINER SECTION 7  */
-  .section-7-images {
+  /* .section-7-images {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-items: center;
     gap: 2rem;
-  }
+  } */
 
   .section-7-cards {
     grid-template-columns: repeat(2, 1fr);
@@ -212,6 +213,7 @@
   .section-9-card-icon {
     right: 1rem;
   }
+
   /* -- ### FIN CONTAINER SECTION 9  */
 }
 

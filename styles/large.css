@@ -4,13 +4,14 @@
   }
 
   .header-video:hover .swiper-button-prev-header,
-.header-video:hover .swiper-button-next-header {
-  padding: 1.8rem;
-}
+  .header-video:hover .swiper-button-next-header {
+    padding: 1.8rem;
+  }
 
-.header-video .swiper-button-next:after, .header-video .swiper-button-prev:after {
-  --swiper-navigation-size: 40px
-}
+  .header-video .swiper-button-next:after,
+  .header-video .swiper-button-prev:after {
+    --swiper-navigation-size: 40px
+  }
 
   /* -- ### CONTAINER SECTION 1  */
   /* Galeria cards cursos */
@@ -91,6 +92,10 @@
   /* -- ### FIN CONTAINER SECTION 6  */
 
   /* -- ### CONTAINER SECTION 7  */
+  .section-7-images {
+    margin: 2rem auto;
+  }
+
   .section-7-cards .section-7-card:last-child .card-desc {
     height: auto;
   }
@@ -132,7 +137,7 @@
     border-bottom: 1px solid transparent;
     transition: background-color 0.2s ease-in-out, padding 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
   }
-  
+
   .accordion-header svg:first-child {
     transform: rotate(0deg);
     transition: transform 0.4s ease-in-out;
@@ -145,7 +150,7 @@
     transition: padding 0.2s ease-in-out;
   }
 
-  .accordion-header:hover svg:first-child{
+  .accordion-header:hover svg:first-child {
     transform: rotate(90deg);
     transition: transform 0.4s ease-in-out;
   }

@@ -166,6 +166,23 @@ const swiper = new Swiper(".mySwiper", {
 	},
 });
 
+// Swiper Alianzas
+const swiperAlianzas = new Swiper(".swiperAlianzas", {
+	autoplay: true,
+	spaceBetween: 30,
+	breakpoints: {
+		0: {
+			slidesPerView: 1,
+		},
+		520: {
+			slidesPerView: 2,
+		},
+		960: {
+			slidesPerView: 3,
+		},
+	},
+});
+
 // GENERAR LISTA DE PAÍSES EN SELECT OPTION
 const getPaises = async () => {
 	const countries = services.countries;
